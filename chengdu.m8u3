@@ -1,4 +1,4 @@
-#EXTM3U name=”成都电信IPTV”
+#EXTM3U name="成都电信IPTV"
 #EXTINF:-1, 爱温江
 http://192.168.20.33:4000/rtp/239.93.1.104:1234
 #EXTINF:-1, CCTV-1高清
