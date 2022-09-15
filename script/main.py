@@ -20,7 +20,7 @@ def isIn(items, v):
 def filterCategory(v):
     listCCTV=["CCTV", "CETV", "CGTN"]
     listSC=[ "卫视"]
-    listTV=["SCTV", "四川", "CDTV", "熊猫", "峨眉"]
+    listTV=["SCTV", "四川", "CDTV", "熊猫", "峨眉", "成都"]
 
     if isIn(listCCTV, v):
         return "央视"
@@ -92,14 +92,16 @@ for c in m:
     c["icon"] = findIcon(mIcons, c["name"])
         
 
-
+file=open("../m3u8/chengdu.m3u8", "w")
+file.write("#EXTM3U name=\"成都电信IPTV\"\n")
 
 for c in m:
-    if c["icon"] == "":
-        print(c)
+#    if c["icon"] == "":
+#        print(c)
 
+    line = '#EXTINF:-1 tvg-logo=' + c["icon"] + ' tvg-id=' + c["id"] + 'tvg-name=' + c["name"] + ' group-title=' + c["tag"] + ', ' + c["name"] + '\n'
+    file.write(line)
+    line = 'http://192.168.20.33:4000/rtp/' + c["address"] + "\n"
+    file.write(line)
 
-
-
-
-
+file.close()
