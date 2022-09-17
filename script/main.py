@@ -93,13 +93,13 @@ for c in m:
         
 
 file=open("../m3u8/chengdu.m3u8", "w")
-file.write("#EXTM3U name=\"成都电信IPTV\" url-tvg=\"http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml\"\n")
+file.write("#EXTM3U name=\"成都电信IPTV\" url-tvg=\"http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml\"\n\n")
 
 for c in m:
 #    if c["icon"] == "":
 #        print(c)
 
-    line = '#EXTINF:-1 tvg-logo=' + c["icon"] + ' tvg-id=' + c["id"] + ' tvg-name=' + c["name"] + ' group-title=' + c["tag"] + ', ' + c["name"] + '\n'
+    line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["name"], c["tag"], c["name"])
     file.write(line)
     line = 'http://192.168.20.33:4000/rtp/' + c["address"] + "\n"
     file.write(line)
