@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV"
+#EXTM3U name="成都电信IPTV" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
 #EXTINF:-1 tvg-logo= tvg-id=1tvg-name=家乡代言四川 group-title=四川, 家乡代言四川
 http://192.168.20.33:4000/rtp/239.93.42.74:5140
 #EXTINF:-1 tvg-logo=http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png tvg-id=2tvg-name=CCTV1 group-title=央视, CCTV1

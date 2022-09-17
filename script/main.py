@@ -93,7 +93,7 @@ for c in m:
         
 
 file=open("../m3u8/chengdu.m3u8", "w")
-file.write("#EXTM3U name=\"成都电信IPTV\"\n")
+file.write("#EXTM3U name=\"成都电信IPTV\" url-tvg=\"http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml\"\n")
 
 for c in m:
 #    if c["icon"] == "":
@@ -105,3 +105,9 @@ for c in m:
     file.write(line)
 
 file.close()
+
+
+
+
+#res = requests.get("https://raw.githubusercontent.com/iptv-org/iptv/master/streams/hk.m3u")
+
