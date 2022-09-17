@@ -83,7 +83,7 @@ for c in m[:]:
     if isIn(listUnused, c["name"]):
         m.remove(c)
     else:
-        c["name"]=c["name"].replace('高清', '').replace(' ', '').replace('-', '')
+        c["name"]=c["name"].replace('超高清', '').replace('高清', '').replace('-', '').strip()
 
 
 

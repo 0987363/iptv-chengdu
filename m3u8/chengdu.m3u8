@@ -41,7 +41,7 @@ http://192.168.20.33:4000/rtp/239.93.0.69:5140
 http://192.168.20.33:4000/rtp/239.93.1.36:8004
 #EXTINF:-1 tvg-logo= tvg-id=22 tvg-name=CGTN英语 group-title=央视, CGTN英语
 http://192.168.20.33:4000/rtp/239.93.0.104:5140
-#EXTINF:-1 tvg-logo= tvg-id=23 tvg-name=CCTV164K超 group-title=央视, CCTV164K超
+#EXTINF:-1 tvg-logo= tvg-id=23 tvg-name=CCTV16 4K group-title=央视, CCTV16 4K
 http://192.168.20.33:4000/rtp/239.93.42.54:5140
 #EXTINF:-1 tvg-logo=http://epg.51zmt.top:8000/tb1/ws/sichuan.png tvg-id=24 tvg-name=四川卫视 group-title=卫视, 四川卫视
 http://192.168.20.33:4000/rtp/239.93.0.20:1235
@@ -313,7 +313,7 @@ http://192.168.20.33:4000/rtp/239.93.1.178:5140
 http://192.168.20.33:4000/rtp/239.93.1.175:5140
 #EXTINF:-1 tvg-logo= tvg-id=183 tvg-name=红色经典 group-title=其他, 红色经典
 http://192.168.20.33:4000/rtp/239.93.1.176:5140
-#EXTINF:-1 tvg-logo= tvg-id=184 tvg-name=4K超电影 group-title=其他, 4K超电影
+#EXTINF:-1 tvg-logo= tvg-id=184 tvg-name=4K电影 group-title=其他, 4K电影
 http://192.168.20.33:4000/rtp/239.93.1.156:5140
 #EXTINF:-1 tvg-logo= tvg-id=185 tvg-name=4K乐享超清 group-title=其他, 4K乐享超清
 http://192.168.20.33:4000/rtp/239.93.0.43:5140
