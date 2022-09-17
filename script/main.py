@@ -99,7 +99,7 @@ for c in m:
 #    if c["icon"] == "":
 #        print(c)
 
-    line = '#EXTINF:-1 tvg-logo=' + c["icon"] + ' tvg-id=' + c["id"] + 'tvg-name=' + c["name"] + ' group-title=' + c["tag"] + ', ' + c["name"] + '\n'
+    line = '#EXTINF:-1 tvg-logo=' + c["icon"] + ' tvg-id=' + c["id"] + ' tvg-name=' + c["name"] + ' group-title=' + c["tag"] + ', ' + c["name"] + '\n'
     file.write(line)
     line = 'http://192.168.20.33:4000/rtp/' + c["address"] + "\n"
     file.write(line)
