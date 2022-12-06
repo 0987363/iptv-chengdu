@@ -14,4 +14,6 @@ http://epg.112114.xyz/douyu/6129898
 http://douyu.home.coolhei.com:9009/v2/douyu/room/id/290935
 #EXTINF:-1 tvg-logo="null" group-title="test", test
 http://douyu.home.coolhei.com:9009/v2/douyu/room/id/11066875
+#EXTINF:-1 tvg-logo="null" group-title="test", test2
+http://douyu.home.coolhei.com:9009/v3/douyu/room/id/11066875
 
