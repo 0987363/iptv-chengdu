@@ -16,3 +16,7 @@ http://epg.112114.xyz/douyu/6129898
 #EXTINF:-1 tvg-logo="http://apic.douyucdn.cn/upload/avatar_v3/202110/1a0fa314c0f44fc2aff1c14e3329b629_middle.jpg" group-title="英雄联盟", 不2不叫周淑怡
 http://douyu.home.coolhei.com:9009/v2/douyu/room/id/290935
 
+
+#EXTINF:-1 tvg-logo="null" group-title="test", test
+http://douyu.home.coolhei.com:9009/v2/douyu/room/id/11066875
+
