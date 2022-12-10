@@ -1,30 +1,36 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="null" group-title="户外", 老狼雄起
 https://epg.112114.xyz/douyu/6554039
-#EXTINF:-1 tvg-logo="null" group-title="户外", 老狼雄起2
+#EXTINF:-1 tvg-logo="null" group-title="户外", 老狼雄起-2
 https://douyu.coolhei.com/v2/douyu/room/id/6554039
 
 #EXTINF:-1 tvg-logo="null" group-title="守望先锋", 冰MMMM
 https://epg.112114.xyz/douyu/1105963
-#EXTINF:-1 tvg-logo="null" group-title="守望先锋", 冰MMMM
+#EXTINF:-1 tvg-logo="null" group-title="守望先锋", 冰MMMM-2
 https://douyu.coolhei.com/v2/douyu/room/id/1105963
 #EXTINF:-1 tvg-logo="null" group-title="守望先锋", 若若IRIS
 https://epg.112114.xyz/douyu/1986214
-#EXTINF:-1 tvg-logo="null" group-title="守望先锋", 若若IRIS
+#EXTINF:-1 tvg-logo="null" group-title="守望先锋", 若若IRIS-2
 https://douyu.coolhei.com/v2/douyu/room/id/1986214
 #EXTINF:-1 tvg-logo="null" group-title="守望先锋", 哈蒙德大人
 https://epg.112114.xyz/douyu/5790826
-#EXTINF:-1 tvg-logo="null" group-title="守望先锋", 哈蒙德大人
+#EXTINF:-1 tvg-logo="null" group-title="守望先锋", 哈蒙德大人-2
 https://douyu.coolhei.com/v2/douyu/room/id/5790826
 
 #EXTINF:-1 tvg-logo="null" group-title="娱乐天地", 大王mio
 https://epg.112114.xyz/douyu/6129898
-#EXTINF:-1 tvg-logo="null" group-title="娱乐天地", 大王mio
+#EXTINF:-1 tvg-logo="null" group-title="娱乐天地", 大王mio-2
 https://douyu.coolhei.com/v2/douyu/room/id/6129898
+
+#EXTINF:-1 tvg-logo="null" group-title="娱乐天地", 刘飞儿faye
+https://epg.112114.xyz/douyu/265438
+#EXTINF:-1 tvg-logo="null" group-title="英雄联盟", 刘飞儿faye-2
+https://douyu.coolhei.com/v2/douyu/room/id/290935
 
 #EXTINF:-1 tvg-logo="null" group-title="英雄联盟", 不2不叫周淑怡
 https://epg.112114.xyz/douyu/290935
-#EXTINF:-1 tvg-logo="null" group-title="英雄联盟", 不2不叫周淑怡
+#EXTINF:-1 tvg-logo="null" group-title="英雄联盟", 不2不叫周淑怡-2
 https://douyu.coolhei.com/v2/douyu/room/id/290935
+
 
 
