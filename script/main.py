@@ -6,6 +6,7 @@ import m3u8
 import sys
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+import strict_rfc3339
 
 res=""
 #with open('./sctvmulticast.html') as f:
@@ -95,7 +96,9 @@ for c in m:
         
 
 file=open("./m3u8/chengdu.m3u8", "w")
-file.write("#EXTM3U name=\"成都电信IPTV\" url-tvg=\"http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml\"\n\n")
+name = '成都电信IPTV - ' + strict_rfc3339.now_to_rfc3339_utcoffset()
+title = '#EXTM3U name=\"' + name + '\"' + ' url-tvg=\"http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml\"\n\n'
+file.write(title)
 
 for c in m:
 #    if c["icon"] == "":

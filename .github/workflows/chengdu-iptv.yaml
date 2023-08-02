@@ -30,6 +30,7 @@ jobs:
           pip install bs4
           pip install lxml
           pip install html5lib
+          pip install strict-rfc3339
 
       - name: Build chengdu m3u8
         run: |
