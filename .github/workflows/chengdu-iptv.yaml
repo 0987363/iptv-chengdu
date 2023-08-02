@@ -27,6 +27,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
           pip install m3u8
+          pip install bs4
 
       - name: Build chengdu m3u8
         run: |
