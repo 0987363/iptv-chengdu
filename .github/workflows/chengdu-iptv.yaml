@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
   schedule:
-    - cron: "0 2 * * *"
+    - cron: "0 2 * * 1"
 
 jobs:
 
@@ -41,6 +41,6 @@ jobs:
           git config --global user.name 'heifeng'
           git config --global user.email '0987363@github.com'
           git add .
-          git commit -am "Automated report"
+          git commit -am "Automated build"
           git push
 
