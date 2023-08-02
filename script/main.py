@@ -5,11 +5,12 @@ import requests
 import m3u8
 import sys
 from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 
 res=""
-with open('../sctvmulticast.html') as f:
-   res=f.read()
-#res = requests.get("http://epg.51zmt.top:8000/sctvmulticast.html")
+#with open('./sctvmulticast.html') as f:
+#   res=f.read()
+res = requests.get("http://epg.51zmt.top:8000/sctvmulticast.html").content
 
 
 def isIn(items, v):
@@ -34,17 +35,18 @@ def filterCategory(v):
 def findIcon(m, id):
     for v in m:
         if v["name"] == id:
-            return v["icon"]
+            return urljoin('http://epg.51zmt.top:8000', v["icon"])
+            #return 'http://epg.51zmt.top:8000/' + v["icon"]
 
     return ""
 
 
 def loadIcon():
-    #res = requests.get("http://epg.51zmt.top:8000/sctvmulticast.html")
-    res=""
+    res = requests.get("http://epg.51zmt.top:8000").content
     m=[]
-    with open('../index.html') as f:
-        res=f.read()
+    #res=""
+    #with open('./index.html') as f:
+    #    res=f.read()
 
     soup = BeautifulSoup(res, 'lxml')
 
@@ -101,7 +103,7 @@ for c in m:
 
     line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["name"], c["tag"], c["name"])
     file.write(line)
-    line = 'http://192.168.20.33:4000/rtp/' + c["address"] + "\n"
+    line = 'http://192.168.20.34:4000/rtp/' + c["address"] + "\n"
     file.write(line)
 
 file.close()
