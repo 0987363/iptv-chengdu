@@ -94,7 +94,7 @@ for c in m:
     c["icon"] = findIcon(mIcons, c["name"])
         
 
-file=open("../m3u8/chengdu.m3u8", "w")
+file=open("./m3u8/chengdu.m3u8", "w")
 file.write("#EXTM3U name=\"成都电信IPTV\" url-tvg=\"http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml\"\n\n")
 
 for c in m:
