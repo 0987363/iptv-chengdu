@@ -1,0 +1,39 @@
+name: CN Pre-Release AWS ECR docker build
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+          pip install m3u8
+
+      - name: Build chengdu m3u8
+        run: |
+          python3 ./script/main.py
+
+      - name: Commit
+        run: |
+          git config --global user.name 'heifeng'
+          git config --global user.email '0987363@github.com'
+          git commit -am "Automated report"
+          git push
+
