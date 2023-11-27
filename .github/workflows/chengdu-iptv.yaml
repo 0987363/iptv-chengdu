@@ -35,6 +35,7 @@ jobs:
       - name: Build chengdu m3u8
         run: |
           python3 ./script/main.py
+          python3 ./script/home.py
 
       - name: Commit
         run: |
@@ -43,4 +44,6 @@ jobs:
           git add .
           git commit -am "Automated build"
           git push
+
+
 
