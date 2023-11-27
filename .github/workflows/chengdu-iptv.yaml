@@ -34,8 +34,12 @@ jobs:
 
       - name: Build chengdu m3u8
         run: |
-          python3 ./script/main.py
+          python3 ./script/chengdu.py
+
+      - name: Build home m3u8
+        run: |
           python3 ./script/home.py
+
 
       - name: Commit
         run: |
