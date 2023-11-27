@@ -7,11 +7,31 @@ import sys
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import strict_rfc3339
+import re
 
-res=""
+
 #with open('./sctvmulticast.html') as f:
 #   res=f.read()
-res = requests.get("http://epg.51zmt.top:8000/sctvmulticast.html").content
+
+sourceTvboxIptv="https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt"
+sourceIcon51ZMT="http://epg.51zmt.top:8000"
+sourceChengduMulticast="http://epg.51zmt.top:8000/sctvmulticast.html"
+homeLanAddress="http://192.168.20.34:4000"
+
+def appendOnlineIptvFromTvbox(listIptv):
+    onlineIptv = requests.get(sourceTvboxIptv).content
+    lines = onlineIptv.splitlines()
+
+    for line in lines:
+        line=line.decode('utf-8')
+        groupMatch = re.search(r'(.+),#genre#', line)
+        if groupMatch:
+            g = groupMatch.group(1)
+            if g not in listIptv:
+                listIptv[g] = []
+        else:
+            v=line.split(',')
+            listIptv[g].extend([{"name": v[0], "address": v[1]}])
 
 
 def isIn(items, v):
@@ -25,7 +45,7 @@ def filterCategory(v):
     listTV=["SCTV", "四川", "CDTV", "熊猫", "峨眉", "成都"]
 
     if isIn(listCCTV, v):
-        return "央视"
+        return "CCTV"
     elif isIn(listSC, v):
         return "卫视"
     elif isIn(listTV, v):
@@ -36,14 +56,14 @@ def filterCategory(v):
 def findIcon(m, id):
     for v in m:
         if v["name"] == id:
-            return urljoin('http://epg.51zmt.top:8000', v["icon"])
+            return urljoin(sourceIcon51ZMT, v["icon"])
             #return 'http://epg.51zmt.top:8000/' + v["icon"]
 
     return ""
 
 
 def loadIcon():
-    res = requests.get("http://epg.51zmt.top:8000").content
+    res = requests.get(sourceIcon51ZMT).content
     m=[]
     #res=""
     #with open('./index.html') as f:
@@ -76,27 +96,32 @@ def generateM3U8(file):
     for c in m:
         line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["name"], c["tag"], c["name"])
         file.write(line)
-        line = 'http://192.168.20.34:4000/rtp/' + c["address"] + "\n"
+        line = homeLanAddress + '/rtp/' + c["address"] + "\n"
         file.write(line)
 
     file.close()
 
 def generateTXT(file):
-    tags={}
+    groups={}
     for c in m:
-        if c["tag"] not in tags:
-            tags[c["tag"]] = []
+        if c["tag"] not in groups:
+            groups[c["tag"]] = []
+        groups[c["tag"]].extend([c])
 
-        tags[c["tag"]].extend([c])
+    appendOnlineIptvFromTvbox(groups)
 
     file=open(file, "w")
-    for k, v in tags.items():
+    for k, v in groups.items():
         line = '%s,#genre#\n' % (k)
         file.write(line)
 
         for c in v:
-            line = '%s,http://192.168.20.34:4000/rtp/%s\n' % (c["name"], c["address"])
+            line = '%s,%s/rtp/%s\n' % (c["name"], homeLanAddress, c["address"])
+            if "ct" not in c:
+                line = '%s,%s\n' % (c["name"], c["address"])
+
             file.write(line)
+
     file.close()
 
 
@@ -105,13 +130,10 @@ def generateHome():
     generateTXT("./home/iptv.txt")
 
 
+#exit(0)
 
 
-
-mIcons = loadIcon()
-#sys.exit(0)
-
-
+res = requests.get(sourceChengduMulticast).content
 soup = BeautifulSoup(res, 'lxml')
 m=[]
 for tr in soup.find_all(name='tr'):
@@ -119,7 +141,7 @@ for tr in soup.find_all(name='tr'):
     if td[0].string == "序号":
         continue
 
-    m.append({"id": td[0].string, "name": td[1].string, "address": td[2].string})
+    m.append({"id": td[0].string, "name": td[1].string, "address": td[2].string, "ct": True})
 
 
 listUnused=["单音轨", "画中画", "热门", "直播室", "爱", "92"]
@@ -131,6 +153,7 @@ for c in m[:]:
 
 
 
+mIcons = loadIcon()
 for c in m:
     c["tag"] = filterCategory(c["name"])
     c["icon"] = findIcon(mIcons, c["name"])

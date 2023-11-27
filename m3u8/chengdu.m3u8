@@ -1,40 +1,40 @@
-#EXTM3U name="成都电信IPTV - 2023-11-27T03:43:24Z" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
+#EXTM3U name="成都电信IPTV - 2023-11-27T05:52:07Z" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
 
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="央视",CCTV1
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="CCTV",CCTV1
 http://192.168.20.34:4000/rtp/239.93.0.184:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" tvg-id="2" tvg-name="CCTV2" group-title="央视",CCTV2
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" tvg-id="2" tvg-name="CCTV2" group-title="CCTV",CCTV2
 http://192.168.20.34:4000/rtp/239.93.1.23:6000
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" tvg-id="3" tvg-name="CCTV3" group-title="央视",CCTV3
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" tvg-id="3" tvg-name="CCTV3" group-title="CCTV",CCTV3
 http://192.168.20.34:4000/rtp/239.93.1.11:2223
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" tvg-id="4" tvg-name="CCTV4" group-title="央视",CCTV4
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" tvg-id="4" tvg-name="CCTV4" group-title="CCTV",CCTV4
 http://192.168.20.34:4000/rtp/239.93.1.105:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" tvg-id="5" tvg-name="CCTV5" group-title="央视",CCTV5
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" tvg-id="5" tvg-name="CCTV5" group-title="CCTV",CCTV5
 http://192.168.20.34:4000/rtp/239.93.42.37:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" tvg-id="6" tvg-name="CCTV6" group-title="央视",CCTV6
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" tvg-id="6" tvg-name="CCTV6" group-title="CCTV",CCTV6
 http://192.168.20.34:4000/rtp/239.93.1.13:2226
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" tvg-id="7" tvg-name="CCTV7" group-title="央视",CCTV7
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" tvg-id="7" tvg-name="CCTV7" group-title="CCTV",CCTV7
 http://192.168.20.34:4000/rtp/239.93.1.67:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV8.png" tvg-id="8" tvg-name="CCTV8" group-title="央视",CCTV8
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV8.png" tvg-id="8" tvg-name="CCTV8" group-title="CCTV",CCTV8
 http://192.168.20.34:4000/rtp/239.93.42.39:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV9.png" tvg-id="9" tvg-name="CCTV9" group-title="央视",CCTV9
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV9.png" tvg-id="9" tvg-name="CCTV9" group-title="CCTV",CCTV9
 http://192.168.20.34:4000/rtp/239.93.1.24:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV10.png" tvg-id="10" tvg-name="CCTV10" group-title="央视",CCTV10
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV10.png" tvg-id="10" tvg-name="CCTV10" group-title="CCTV",CCTV10
 http://192.168.20.34:4000/rtp/239.93.1.28:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV11.png" tvg-id="11" tvg-name="CCTV11" group-title="央视",CCTV11
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV11.png" tvg-id="11" tvg-name="CCTV11" group-title="CCTV",CCTV11
 http://192.168.20.34:4000/rtp/239.93.0.102:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV12.png" tvg-id="12" tvg-name="CCTV12" group-title="央视",CCTV12
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV12.png" tvg-id="12" tvg-name="CCTV12" group-title="CCTV",CCTV12
 http://192.168.20.34:4000/rtp/239.93.1.30:8124
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" tvg-id="13" tvg-name="CCTV13" group-title="央视",CCTV13
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" tvg-id="13" tvg-name="CCTV13" group-title="CCTV",CCTV13
 http://192.168.20.34:4000/rtp/239.93.0.66:5140
-#EXTINF:-1 tvg-logo="" tvg-id="14" tvg-name="CCTV少儿" group-title="央视",CCTV少儿
+#EXTINF:-1 tvg-logo="" tvg-id="14" tvg-name="CCTV少儿" group-title="CCTV",CCTV少儿
 http://192.168.20.34:4000/rtp/239.93.1.29:6000
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" tvg-id="15" tvg-name="CCTV15" group-title="央视",CCTV15
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" tvg-id="15" tvg-name="CCTV15" group-title="CCTV",CCTV15
 http://192.168.20.34:4000/rtp/239.93.0.103:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" tvg-id="16" tvg-name="CCTV17" group-title="央视",CCTV17
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" tvg-id="16" tvg-name="CCTV17" group-title="CCTV",CCTV17
 http://192.168.20.34:4000/rtp/239.93.0.92:5140
-#EXTINF:-1 tvg-logo="" tvg-id="17" tvg-name="CCTV5＋" group-title="央视",CCTV5＋
+#EXTINF:-1 tvg-logo="" tvg-id="17" tvg-name="CCTV5＋" group-title="CCTV",CCTV5＋
 http://192.168.20.34:4000/rtp/239.93.1.36:8004
-#EXTINF:-1 tvg-logo="" tvg-id="19" tvg-name="CGTN英语" group-title="央视",CGTN英语
+#EXTINF:-1 tvg-logo="" tvg-id="19" tvg-name="CGTN英语" group-title="CCTV",CGTN英语
 http://192.168.20.34:4000/rtp/239.93.0.104:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" tvg-id="20" tvg-name="四川卫视" group-title="卫视",四川卫视
 http://192.168.20.34:4000/rtp/239.93.0.20:1235
@@ -152,7 +152,7 @@ http://192.168.20.34:4000/rtp/239.93.0.22:1252
 http://192.168.20.34:4000/rtp/239.93.1.137:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jinyingjishi.png" tvg-id="77" tvg-name="金鹰纪实" group-title="其他",金鹰纪实
 http://192.168.20.34:4000/rtp/239.93.0.130:5140
-#EXTINF:-1 tvg-logo="" tvg-id="78" tvg-name="CETV1" group-title="央视",CETV1
+#EXTINF:-1 tvg-logo="" tvg-id="78" tvg-name="CETV1" group-title="CCTV",CETV1
 http://192.168.20.34:4000/rtp/239.93.1.111:5140
 #EXTINF:-1 tvg-logo="" tvg-id="79" tvg-name="熊猫新闻专区" group-title="四川",熊猫新闻专区
 http://192.168.20.34:4000/rtp/239.93.1.112:5140
@@ -180,9 +180,9 @@ http://192.168.20.34:4000/rtp/239.93.0.62:5140
 http://192.168.20.34:4000/rtp/239.93.1.195:5140
 #EXTINF:-1 tvg-logo="" tvg-id="96" tvg-name="家政频道" group-title="其他",家政频道
 http://192.168.20.34:4000/rtp/239.93.42.48:5140
-#EXTINF:-1 tvg-logo="" tvg-id="97" tvg-name="CETV2" group-title="央视",CETV2
+#EXTINF:-1 tvg-logo="" tvg-id="97" tvg-name="CETV2" group-title="CCTV",CETV2
 http://192.168.20.34:4000/rtp/239.93.0.113:5140
-#EXTINF:-1 tvg-logo="" tvg-id="98" tvg-name="CETV4" group-title="央视",CETV4
+#EXTINF:-1 tvg-logo="" tvg-id="98" tvg-name="CETV4" group-title="CCTV",CETV4
 http://192.168.20.34:4000/rtp/239.93.0.50:5140
 #EXTINF:-1 tvg-logo="" tvg-id="99" tvg-name="经典电影专区" group-title="其他",经典电影专区
 http://192.168.20.34:4000/rtp/239.93.0.57:9024
@@ -254,9 +254,9 @@ http://192.168.20.34:4000/rtp/239.93.0.91:2101
 http://192.168.20.34:4000/rtp/239.93.1.171:5140
 #EXTINF:-1 tvg-logo="" tvg-id="137" tvg-name="东方财经" group-title="其他",东方财经
 http://192.168.20.34:4000/rtp/239.93.1.165:5140
-#EXTINF:-1 tvg-logo="" tvg-id="138" tvg-name="CGTN西班牙语" group-title="央视",CGTN西班牙语
+#EXTINF:-1 tvg-logo="" tvg-id="138" tvg-name="CGTN西班牙语" group-title="CCTV",CGTN西班牙语
 http://192.168.20.34:4000/rtp/239.93.42.49:5140
-#EXTINF:-1 tvg-logo="" tvg-id="139" tvg-name="CGTN法语" group-title="央视",CGTN法语
+#EXTINF:-1 tvg-logo="" tvg-id="139" tvg-name="CGTN法语" group-title="CCTV",CGTN法语
 http://192.168.20.34:4000/rtp/239.93.42.50:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHTV.jpg" tvg-id="140" tvg-name="百姓健康" group-title="其他",百姓健康
 http://192.168.20.34:4000/rtp/239.93.42.35:5140
