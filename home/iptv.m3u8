@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2023-11-27T09:33:40Z" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
+#EXTM3U name="成都电信IPTV - 2023-12-01T06:18:52Z" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="CCTV",CCTV1
 http://192.168.20.34:4000/rtp/239.93.0.184:5140
@@ -36,10 +36,28 @@ http://192.168.20.34:4000/rtp/239.93.0.92:5140
 http://192.168.20.34:4000/rtp/239.93.1.36:8004
 #EXTINF:-1 tvg-logo="" tvg-id="19" tvg-name="CGTN英语" group-title="CCTV",CGTN英语
 http://192.168.20.34:4000/rtp/239.93.0.104:5140
+#EXTINF:-1 tvg-logo="" tvg-id="78" tvg-name="CETV1" group-title="CCTV",CETV1
+http://192.168.20.34:4000/rtp/239.93.1.111:5140
+#EXTINF:-1 tvg-logo="" tvg-id="97" tvg-name="CETV2" group-title="CCTV",CETV2
+http://192.168.20.34:4000/rtp/239.93.0.113:5140
+#EXTINF:-1 tvg-logo="" tvg-id="98" tvg-name="CETV4" group-title="CCTV",CETV4
+http://192.168.20.34:4000/rtp/239.93.0.50:5140
+#EXTINF:-1 tvg-logo="" tvg-id="138" tvg-name="CGTN西班牙语" group-title="CCTV",CGTN西班牙语
+http://192.168.20.34:4000/rtp/239.93.42.49:5140
+#EXTINF:-1 tvg-logo="" tvg-id="139" tvg-name="CGTN法语" group-title="CCTV",CGTN法语
+http://192.168.20.34:4000/rtp/239.93.42.50:5140
+#EXTINF:-1 tvg-id="469" tvg-name="风云剧场" group-title="CCTV",风云剧场
+http://42.176.185.28:9901/tsfile/live/1031_1.m3u8
+#EXTINF:-1 tvg-id="470" tvg-name="风云音乐" group-title="CCTV",风云音乐
+http://42.176.185.28:9901/tsfile/live/1024_1.m3u8
+#EXTINF:-1 tvg-id="471" tvg-name="女性时尚" group-title="CCTV",女性时尚
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226237/index.m3u8
+#EXTINF:-1 tvg-id="472" tvg-name="发现之旅" group-title="CCTV",发现之旅
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226235/index.m3u8
+#EXTINF:-1 tvg-id="473" tvg-name="老故事" group-title="CCTV",老故事
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226236/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" tvg-id="20" tvg-name="四川卫视" group-title="卫视",四川卫视
 http://192.168.20.34:4000/rtp/239.93.0.20:1235
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/cdtv1.png" tvg-id="21" tvg-name="CDTV1" group-title="四川",CDTV1
-http://192.168.20.34:4000/rtp/239.93.0.16:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" tvg-id="22" tvg-name="湖南卫视" group-title="卫视",湖南卫视
 http://192.168.20.34:4000/rtp/239.93.0.88:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" tvg-id="23" tvg-name="江苏卫视" group-title="卫视",江苏卫视
@@ -58,22 +76,6 @@ http://192.168.20.34:4000/rtp/239.93.0.181:5140
 http://192.168.20.34:4000/rtp/239.93.0.167:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shandong.png" tvg-id="30" tvg-name="山东卫视" group-title="卫视",山东卫视
 http://192.168.20.34:4000/rtp/239.93.0.168:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv2.png" tvg-id="31" tvg-name="SCTV2" group-title="四川",SCTV2
-http://192.168.20.34:4000/rtp/239.93.1.101:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv3.png" tvg-id="32" tvg-name="SCTV3" group-title="四川",SCTV3
-http://192.168.20.34:4000/rtp/239.93.1.102:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv4.png" tvg-id="33" tvg-name="SCTV4" group-title="四川",SCTV4
-http://192.168.20.34:4000/rtp/239.93.0.47:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv5.png" tvg-id="34" tvg-name="SCTV5" group-title="四川",SCTV5
-http://192.168.20.34:4000/rtp/239.93.0.166:5140
-#EXTINF:-1 tvg-logo="" tvg-id="35" tvg-name="SCTV6" group-title="四川",SCTV6
-http://192.168.20.34:4000/rtp/239.93.1.144:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv7.png" tvg-id="36" tvg-name="SCTV7" group-title="四川",SCTV7
-http://192.168.20.34:4000/rtp/239.93.0.219:5140
-#EXTINF:-1 tvg-logo="" tvg-id="37" tvg-name="SCTV科教" group-title="四川",SCTV科教
-http://192.168.20.34:4000/rtp/239.93.42.44:5140
-#EXTINF:-1 tvg-logo="" tvg-id="38" tvg-name="四川乡村" group-title="四川",四川乡村
-http://192.168.20.34:4000/rtp/239.93.0.52:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/kangba.png" tvg-id="39" tvg-name="康巴卫视" group-title="卫视",康巴卫视
 http://192.168.20.34:4000/rtp/239.93.0.41:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" tvg-id="40" tvg-name="江西卫视" group-title="卫视",江西卫视
@@ -120,12 +122,8 @@ http://192.168.20.34:4000/rtp/239.93.0.194:5140
 http://192.168.20.34:4000/rtp/239.93.0.81:5140
 #EXTINF:-1 tvg-logo="" tvg-id="61" tvg-name="海南卫视" group-title="卫视",海南卫视
 http://192.168.20.34:4000/rtp/239.93.0.80:5140
-#EXTINF:-1 tvg-logo="" tvg-id="62" tvg-name="陕西农林" group-title="其他",陕西农林
-http://192.168.20.34:4000/rtp/239.93.0.100:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/bingtuan.png" tvg-id="63" tvg-name="兵团卫视" group-title="卫视",兵团卫视
 http://192.168.20.34:4000/rtp/239.93.42.43:5140
-#EXTINF:-1 tvg-logo="" tvg-id="64" tvg-name="峨眉电影" group-title="四川",峨眉电影
-http://192.168.20.34:4000/rtp/239.93.0.252:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xiamen.png" tvg-id="65" tvg-name="厦门卫视" group-title="卫视",厦门卫视
 http://192.168.20.34:4000/rtp/239.93.42.57:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sansha.png" tvg-id="66" tvg-name="三沙卫视" group-title="卫视",三沙卫视
@@ -134,8 +132,26 @@ http://192.168.20.34:4000/rtp/239.93.42.58:5140
 http://192.168.20.34:4000/rtp/239.93.1.196:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/YANBIAN1.png" tvg-id="68" tvg-name="延边卫视" group-title="卫视",延边卫视
 http://192.168.20.34:4000/rtp/239.93.0.249:5140
-#EXTINF:-1 tvg-logo="" tvg-id="69" tvg-name="中国交通" group-title="其他",中国交通
-http://192.168.20.34:4000/rtp/239.93.0.142:5140
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/cdtv1.png" tvg-id="21" tvg-name="CDTV1" group-title="四川",CDTV1
+http://192.168.20.34:4000/rtp/239.93.0.16:5140
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv2.png" tvg-id="31" tvg-name="SCTV2" group-title="四川",SCTV2
+http://192.168.20.34:4000/rtp/239.93.1.101:5140
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv3.png" tvg-id="32" tvg-name="SCTV3" group-title="四川",SCTV3
+http://192.168.20.34:4000/rtp/239.93.1.102:5140
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv4.png" tvg-id="33" tvg-name="SCTV4" group-title="四川",SCTV4
+http://192.168.20.34:4000/rtp/239.93.0.47:5140
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv5.png" tvg-id="34" tvg-name="SCTV5" group-title="四川",SCTV5
+http://192.168.20.34:4000/rtp/239.93.0.166:5140
+#EXTINF:-1 tvg-logo="" tvg-id="35" tvg-name="SCTV6" group-title="四川",SCTV6
+http://192.168.20.34:4000/rtp/239.93.1.144:5140
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv7.png" tvg-id="36" tvg-name="SCTV7" group-title="四川",SCTV7
+http://192.168.20.34:4000/rtp/239.93.0.219:5140
+#EXTINF:-1 tvg-logo="" tvg-id="37" tvg-name="SCTV科教" group-title="四川",SCTV科教
+http://192.168.20.34:4000/rtp/239.93.42.44:5140
+#EXTINF:-1 tvg-logo="" tvg-id="38" tvg-name="四川乡村" group-title="四川",四川乡村
+http://192.168.20.34:4000/rtp/239.93.0.52:5140
+#EXTINF:-1 tvg-logo="" tvg-id="64" tvg-name="峨眉电影" group-title="四川",峨眉电影
+http://192.168.20.34:4000/rtp/239.93.0.252:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/cdtv2.png" tvg-id="70" tvg-name="CDTV2" group-title="四川",CDTV2
 http://192.168.20.34:4000/rtp/239.93.0.17:1239
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/cdtv3.png" tvg-id="71" tvg-name="CDTV3" group-title="四川",CDTV3
@@ -148,12 +164,6 @@ http://192.168.20.34:4000/rtp/239.93.1.231:5140
 http://192.168.20.34:4000/rtp/239.93.0.21:1251
 #EXTINF:-1 tvg-logo="" tvg-id="75" tvg-name="CDTV8" group-title="四川",CDTV8
 http://192.168.20.34:4000/rtp/239.93.0.22:1252
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" tvg-id="76" tvg-name="上海纪实" group-title="其他",上海纪实
-http://192.168.20.34:4000/rtp/239.93.1.137:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jinyingjishi.png" tvg-id="77" tvg-name="金鹰纪实" group-title="其他",金鹰纪实
-http://192.168.20.34:4000/rtp/239.93.0.130:5140
-#EXTINF:-1 tvg-logo="" tvg-id="78" tvg-name="CETV1" group-title="CCTV",CETV1
-http://192.168.20.34:4000/rtp/239.93.1.111:5140
 #EXTINF:-1 tvg-logo="" tvg-id="79" tvg-name="熊猫新闻专区" group-title="四川",熊猫新闻专区
 http://192.168.20.34:4000/rtp/239.93.1.112:5140
 #EXTINF:-1 tvg-logo="" tvg-id="80" tvg-name="熊猫体娱专区" group-title="四川",熊猫体娱专区
@@ -168,6 +178,18 @@ http://192.168.20.34:4000/rtp/239.93.0.126:5140
 http://192.168.20.34:4000/rtp/239.93.0.211:9148
 #EXTINF:-1 tvg-logo="" tvg-id="85" tvg-name="金熊猫卡通专区" group-title="四川",金熊猫卡通专区
 http://192.168.20.34:4000/rtp/239.93.1.172:5140
+#EXTINF:-1 tvg-logo="" tvg-id="172" tvg-name="熊猫24小时专区" group-title="四川",熊猫24小时专区
+http://192.168.20.34:4000/rtp/239.93.1.178:5140
+#EXTINF:-1 tvg-logo="" tvg-id="176" tvg-name="i成都" group-title="四川",i成都
+http://192.168.20.34:4000/rtp/239.93.1.104:1234
+#EXTINF:-1 tvg-logo="" tvg-id="62" tvg-name="陕西农林" group-title="其他",陕西农林
+http://192.168.20.34:4000/rtp/239.93.0.100:5140
+#EXTINF:-1 tvg-logo="" tvg-id="69" tvg-name="中国交通" group-title="其他",中国交通
+http://192.168.20.34:4000/rtp/239.93.0.142:5140
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" tvg-id="76" tvg-name="上海纪实" group-title="其他",上海纪实
+http://192.168.20.34:4000/rtp/239.93.1.137:5140
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jinyingjishi.png" tvg-id="77" tvg-name="金鹰纪实" group-title="其他",金鹰纪实
+http://192.168.20.34:4000/rtp/239.93.0.130:5140
 #EXTINF:-1 tvg-logo="" tvg-id="86" tvg-name="炫动卡通" group-title="其他",炫动卡通
 http://192.168.20.34:4000/rtp/239.93.0.173:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jiajiakt.png" tvg-id="87" tvg-name="嘉佳卡通" group-title="其他",嘉佳卡通
@@ -180,10 +202,6 @@ http://192.168.20.34:4000/rtp/239.93.0.62:5140
 http://192.168.20.34:4000/rtp/239.93.1.195:5140
 #EXTINF:-1 tvg-logo="" tvg-id="96" tvg-name="家政频道" group-title="其他",家政频道
 http://192.168.20.34:4000/rtp/239.93.42.48:5140
-#EXTINF:-1 tvg-logo="" tvg-id="97" tvg-name="CETV2" group-title="CCTV",CETV2
-http://192.168.20.34:4000/rtp/239.93.0.113:5140
-#EXTINF:-1 tvg-logo="" tvg-id="98" tvg-name="CETV4" group-title="CCTV",CETV4
-http://192.168.20.34:4000/rtp/239.93.0.50:5140
 #EXTINF:-1 tvg-logo="" tvg-id="99" tvg-name="经典电影专区" group-title="其他",经典电影专区
 http://192.168.20.34:4000/rtp/239.93.0.57:9024
 #EXTINF:-1 tvg-logo="" tvg-id="100" tvg-name="华语影院专区" group-title="其他",华语影院专区
@@ -254,10 +272,6 @@ http://192.168.20.34:4000/rtp/239.93.0.91:2101
 http://192.168.20.34:4000/rtp/239.93.1.171:5140
 #EXTINF:-1 tvg-logo="" tvg-id="137" tvg-name="东方财经" group-title="其他",东方财经
 http://192.168.20.34:4000/rtp/239.93.1.165:5140
-#EXTINF:-1 tvg-logo="" tvg-id="138" tvg-name="CGTN西班牙语" group-title="CCTV",CGTN西班牙语
-http://192.168.20.34:4000/rtp/239.93.42.49:5140
-#EXTINF:-1 tvg-logo="" tvg-id="139" tvg-name="CGTN法语" group-title="CCTV",CGTN法语
-http://192.168.20.34:4000/rtp/239.93.42.50:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHTV.jpg" tvg-id="140" tvg-name="百姓健康" group-title="其他",百姓健康
 http://192.168.20.34:4000/rtp/239.93.42.35:5140
 #EXTINF:-1 tvg-logo="" tvg-id="146" tvg-name="都市剧场" group-title="其他",都市剧场
@@ -292,16 +306,12 @@ http://192.168.20.34:4000/rtp/239.93.1.191:5140
 http://192.168.20.34:4000/rtp/239.93.1.177:5140
 #EXTINF:-1 tvg-logo="" tvg-id="171" tvg-name="中录动漫4K专区" group-title="其他",中录动漫4K专区
 http://192.168.20.34:4000/rtp/239.93.1.188:5140
-#EXTINF:-1 tvg-logo="" tvg-id="172" tvg-name="熊猫24小时专区" group-title="四川",熊猫24小时专区
-http://192.168.20.34:4000/rtp/239.93.1.178:5140
 #EXTINF:-1 tvg-logo="" tvg-id="173" tvg-name="综艺咖秀专区" group-title="其他",综艺咖秀专区
 http://192.168.20.34:4000/rtp/239.93.1.175:5140
 #EXTINF:-1 tvg-logo="" tvg-id="174" tvg-name="红色经典专区" group-title="其他",红色经典专区
 http://192.168.20.34:4000/rtp/239.93.1.176:5140
 #EXTINF:-1 tvg-logo="" tvg-id="175" tvg-name="4K乐享超清专区" group-title="其他",4K乐享超清专区
 http://192.168.20.34:4000/rtp/239.93.0.43:5140
-#EXTINF:-1 tvg-logo="" tvg-id="176" tvg-name="i成都" group-title="四川",i成都
-http://192.168.20.34:4000/rtp/239.93.1.104:1234
 #EXTINF:-1 tvg-logo="" tvg-id="177" tvg-name="中国体育1" group-title="其他",中国体育1
 http://192.168.20.34:4000/rtp/239.93.42.25:5140
 #EXTINF:-1 tvg-logo="" tvg-id="178" tvg-name="中国体育2" group-title="其他",中国体育2
@@ -326,3 +336,539 @@ http://192.168.20.34:4000/rtp/239.93.42.60:5140
 http://192.168.20.34:4000/rtp/239.93.42.59:5140
 #EXTINF:-1 tvg-logo="" tvg-id="196" tvg-name="华西证券" group-title="其他",华西证券
 http://192.168.20.34:4000/rtp/239.93.0.69:5140
+#EXTINF:-1 tvg-id="474" tvg-name="欢笑剧场" group-title="肥羊BESTV",欢笑剧场
+https://live.goodiptv.club/api/bestv.php?id=hxjc8m/8000000
+#EXTINF:-1 tvg-id="475" tvg-name="劲爆体育" group-title="肥羊BESTV",劲爆体育
+https://live.goodiptv.club/api/bestv.php?id=jbtyhd8m/8000000
+#EXTINF:-1 tvg-id="476" tvg-name="快乐垂钓" group-title="肥羊BESTV",快乐垂钓
+https://live.goodiptv.club/api/bestv.php?id=klcd8m/8000000
+#EXTINF:-1 tvg-id="477" tvg-name="金鹰纪实" group-title="肥羊BESTV",金鹰纪实
+https://live.goodiptv.club/api/bestv.php?id=jyjs8m/8000000
+#EXTINF:-1 tvg-id="478" tvg-name="戏曲精选" group-title="肥羊BESTV",戏曲精选
+https://live.goodiptv.club/api/bestv.php?id=xqjx8m/8000000
+#EXTINF:-1 tvg-id="479" tvg-name="上海第一财经" group-title="肥羊BESTV",上海第一财经
+https://live.goodiptv.club/api/bestv.php?id=dycjhd8m/8000000
+#EXTINF:-1 tvg-id="480" tvg-name="上海都市" group-title="肥羊BESTV",上海都市
+https://live.goodiptv.club/api/bestv.php?id=dshd8m/8000000
+#EXTINF:-1 tvg-id="481" tvg-name="上海纪实" group-title="肥羊BESTV",上海纪实
+https://live.goodiptv.club/api/bestv.php?id=jspdhd/4000000
+#EXTINF:-1 tvg-id="482" tvg-name="五星体育" group-title="肥羊BESTV",五星体育
+https://live.goodiptv.club/api/bestv.php?id=wxtyhd8m/8000000
+#EXTINF:-1 tvg-id="483" tvg-name="七彩戏剧" group-title="肥羊BESTV",七彩戏剧
+https://live.goodiptv.club/api/bestv.php?id=qcxjhd8m/8000000
+#EXTINF:-1 tvg-id="484" tvg-name="上海教育" group-title="肥羊BESTV",上海教育
+https://live.goodiptv.club/api/bestv.php?id=setvhd/8000000
+#EXTINF:-1 tvg-id="485" tvg-name="全纪实" group-title="肥羊BESTV",全纪实
+https://live.goodiptv.club/api/bestv.php?id=qjshd8m/8000000
+#EXTINF:-1 tvg-id="486" tvg-name="生活时尚" group-title="肥羊BESTV",生活时尚
+https://live.goodiptv.club/api/bestv.php?id=shss8m/8000000
+#EXTINF:-1 tvg-id="487" tvg-name="游戏风云" group-title="肥羊BESTV",游戏风云
+https://live.goodiptv.club/api/bestv.php?id=yxfy8m/8000000
+#EXTINF:-1 tvg-id="488" tvg-name="热门综艺" group-title="肥羊BESTV",热门综艺
+https://live.goodiptv.club/api/bestv.php?id=rmzy8m/8000000
+#EXTINF:-1 tvg-id="489" tvg-name="超级体育" group-title="肥羊BESTV",超级体育
+https://live.goodiptv.club/api/bestv.php?id=qcsj8m/8000000
+#EXTINF:-1 tvg-id="490" tvg-name="健康养生" group-title="肥羊BESTV",健康养生
+https://live.goodiptv.club/api/bestv.php?id=jkys8m/8000000
+#EXTINF:-1 tvg-id="491" tvg-name="百变课堂" group-title="肥羊BESTV",百变课堂
+https://live.goodiptv.club/api/bestv.php?id=bbkt8m/8000000
+#EXTINF:-1 tvg-id="492" tvg-name="看天下精选" group-title="肥羊BESTV",看天下精选
+https://live.goodiptv.club/api/bestv.php?id=ktxjx8m/8000000
+#EXTINF:-1 tvg-id="493" tvg-name="华语影院" group-title="肥羊BESTV",华语影院
+https://live.goodiptv.club/api/bestv.php?id=hyyy8m/8000000
+#EXTINF:-1 tvg-id="494" tvg-name="电竞天堂" group-title="肥羊BESTV",电竞天堂
+https://live.goodiptv.club/api/bestv.php?id=djtt8m/8000000
+#EXTINF:-1 tvg-id="495" tvg-name="青春动漫" group-title="肥羊BESTV",青春动漫
+https://live.goodiptv.club/api/bestv.php?id=qcdm8m/8000000
+#EXTINF:-1 tvg-id="496" tvg-name="宝宝动画" group-title="肥羊BESTV",宝宝动画
+https://live.goodiptv.club/api/bestv.php?id=bbdh8m/8000000
+#EXTINF:-1 tvg-id="497" tvg-name="星光影院" group-title="肥羊BESTV",星光影院
+https://live.goodiptv.club/api/bestv.php?id=xgyy8m/8000000
+#EXTINF:-1 tvg-id="498" tvg-name="谍战剧场" group-title="肥羊BESTV",谍战剧场
+https://live.goodiptv.club/api/bestv.php?id=dzjc8m/8000000
+#EXTINF:-1 tvg-id="499" tvg-name="全球大片" group-title="肥羊BESTV",全球大片
+https://live.goodiptv.club/api/bestv.php?id=qqdp8m/8000000
+#EXTINF:-1 tvg-id="500" tvg-name="热门剧场" group-title="肥羊BESTV",热门剧场
+https://live.goodiptv.club/api/bestv.php?id=rmjc8m/8000000
+#EXTINF:-1 tvg-id="501" tvg-name="陶瓷高清" group-title="肥羊BESTV",陶瓷高清
+https://live.goodiptv.club/api/bestv.php?id=taocihd/8000000
+#EXTINF:-1 tvg-id="502" tvg-name="卡酷少儿" group-title="肥羊BESTV",卡酷少儿
+https://live.goodiptv.club/api/bestv.php?id=kkse8m/8000000
+#EXTINF:-1 tvg-id="503" tvg-name="纪实科教" group-title="肥羊BESTV",纪实科教
+https://live.goodiptv.club/api/bestv.php?id=dajs8m/8000000
+#EXTINF:-1 tvg-id="504" tvg-name="茶频道" group-title="肥羊BESTV",茶频道
+https://live.goodiptv.club/api/bestv.php?id=cpdhdavs8m/8000000
+#EXTINF:-1 tvg-id="505" tvg-name="足球高清" group-title="肥羊BESTV",足球高清
+https://live.goodiptv.club/api/bestv.php?id=zqpd8m/8000000
+#EXTINF:-1 tvg-id="506" tvg-name="炫动卡通" group-title="肥羊BESTV",炫动卡通
+https://live.goodiptv.club/api/bestv.php?id=hhxd8m/8000000
+#EXTINF:-1 tvg-id="507" tvg-name="东方财经" group-title="肥羊BESTV",东方财经
+https://live.goodiptv.club/api/bestv.php?id=dfcjhd8m/8000000
+#EXTINF:-1 tvg-id="508" tvg-name="都市剧场" group-title="肥羊BESTV",都市剧场
+https://live.goodiptv.club/api/bestv.php?id=dsjc8m/8000000
+#EXTINF:-1 tvg-id="509" tvg-name="动漫秀场" group-title="肥羊BESTV",动漫秀场
+https://live.goodiptv.club/api/bestv.php?id=dmxc8m/8000000
+#EXTINF:-1 tvg-id="510" tvg-name="法治天地" group-title="肥羊BESTV",法治天地
+https://live.goodiptv.club/api/bestv.php?id=fztd8m/8000000
+#EXTINF:-1 tvg-id="511" tvg-name="金色学堂" group-title="肥羊BESTV",金色学堂
+https://live.goodiptv.club/api/bestv.php?id=jingsepd8m/8000000
+#EXTINF:-1 tvg-id="512" tvg-name="魅力足球" group-title="肥羊BESTV",魅力足球
+https://live.goodiptv.club/api/bestv.php?id=mlyyhd8m/8000000
+#EXTINF:-1 tvg-id="513" tvg-name="北京卡酷少儿" group-title="肥羊CQYX",北京卡酷少儿
+https://live.goodiptv.club/api/cqyx.php?id=bjkakuSD
+#EXTINF:-1 tvg-id="514" tvg-name="金鹰卡通" group-title="肥羊CQYX",金鹰卡通
+https://live.goodiptv.club/api/cqyx.php?id=jinyingSD
+#EXTINF:-1 tvg-id="515" tvg-name="中国天气" group-title="肥羊CQYX",中国天气
+https://live.goodiptv.club/api/cqyx.php?id=tianqiSD
+#EXTINF:-1 tvg-id="516" tvg-name="北京纪实科教" group-title="肥羊CQYX",北京纪实科教
+https://live.goodiptv.club/api/cqyx.php?id=bjayjsSD
+#EXTINF:-1 tvg-id="517" tvg-name="生活时尚" group-title="肥羊CQYX",生活时尚
+https://live.goodiptv.club/api/cqyx.php?id=shenghuo
+#EXTINF:-1 tvg-id="518" tvg-name="百姓健康" group-title="肥羊CQYX",百姓健康
+https://live.goodiptv.club/api/cqyx.php?id=jiankangSD
+#EXTINF:-1 tvg-id="519" tvg-name="快乐垂钓" group-title="肥羊CQYX",快乐垂钓
+https://live.goodiptv.club/api/cqyx.php?id=klcdHD
+#EXTINF:-1 tvg-id="520" tvg-name="第一剧场" group-title="肥羊CQYX",第一剧场
+https://live.goodiptv.club/api/cqyx.php?id=diyijuchangHD
+#EXTINF:-1 tvg-id="521" tvg-name="都市剧场" group-title="肥羊CQYX",都市剧场
+https://live.goodiptv.club/api/cqyx.php?id=dsjcHD
+#EXTINF:-1 tvg-id="522" tvg-name="动漫秀场" group-title="肥羊CQYX",动漫秀场
+https://live.goodiptv.club/api/cqyx.php?id=dmxcHD
+#EXTINF:-1 tvg-id="523" tvg-name="魅力足球" group-title="肥羊CQYX",魅力足球
+https://live.goodiptv.club/api/cqyx.php?id=mlzqHD
+#EXTINF:-1 tvg-id="524" tvg-name="风云剧场" group-title="肥羊CQYX",风云剧场
+https://live.goodiptv.club/api/cqyx.php?id=fyjcHD
+#EXTINF:-1 tvg-id="525" tvg-name="求索纪录" group-title="肥羊CQYX",求索纪录
+https://live.goodiptv.club/api/cqyx.php?id=qsjlHD
+#EXTINF:-1 tvg-id="526" tvg-name="兵器科技" group-title="肥羊CQYX",兵器科技
+https://live.goodiptv.club/api/cqyx.php?id=bqkjHD
+#EXTINF:-1 tvg-id="527" tvg-name="游戏风云" group-title="肥羊CQYX",游戏风云
+https://live.goodiptv.club/api/cqyx.php?id=yxfyHD
+#EXTINF:-1 tvg-id="528" tvg-name="怀旧剧场" group-title="肥羊CQYX",怀旧剧场
+https://live.goodiptv.club/api/cqyx.php?id=hjjcHD
+#EXTINF:-1 tvg-id="529" tvg-name="风云音乐" group-title="肥羊CQYX",风云音乐
+https://live.goodiptv.club/api/cqyx.php?id=fyyyHD
+#EXTINF:-1 tvg-id="530" tvg-name="风云足球" group-title="肥羊CQYX",风云足球
+https://live.goodiptv.club/api/cqyx.php?id=fyzqHD
+#EXTINF:-1 tvg-id="531" tvg-name="高尔夫网球" group-title="肥羊CQYX",高尔夫网球
+https://live.goodiptv.club/api/cqyx.php?id=golfHD
+#EXTINF:-1 tvg-id="532" tvg-name="早期教育" group-title="肥羊CQYX",早期教育
+https://live.goodiptv.club/api/cqyx.php?id=zaojiaoHD
+#EXTINF:-1 tvg-id="533" tvg-name="重庆新闻" group-title="肥羊CQYX",重庆新闻
+https://live.goodiptv.club/api/cqyx.php?id=CQTVNewsHD
+#EXTINF:-1 tvg-id="534" tvg-name="重庆社会与法" group-title="肥羊CQYX",重庆社会与法
+https://live.goodiptv.club/api/cqyx.php?id=CQTVTrendyHD
+#EXTINF:-1 tvg-id="535" tvg-name="重庆时尚生活" group-title="肥羊CQYX",重庆时尚生活
+https://live.goodiptv.club/api/cqyx.php?id=cqssgwHD
+#EXTINF:-1 tvg-id="536" tvg-name="重庆文体娱乐" group-title="肥羊CQYX",重庆文体娱乐
+https://live.goodiptv.club/api/cqyx.php?id=cqwtylHD
+#EXTINF:-1 tvg-id="537" tvg-name="重庆新农村" group-title="肥羊CQYX",重庆新农村
+https://live.goodiptv.club/api/cqyx.php?id=cqggncHD
+#EXTINF:-1 tvg-id="538" tvg-name="重庆少儿" group-title="肥羊CQYX",重庆少儿
+https://live.goodiptv.club/api/cqyx.php?id=cqseHD
+#EXTINF:-1 tvg-id="539" tvg-name="重庆科教" group-title="肥羊CQYX",重庆科教
+https://live.goodiptv.club/api/cqyx.php?id=CQTVkejiaoHD
+#EXTINF:-1 tvg-id="540" tvg-name="重庆汽摩" group-title="肥羊CQYX",重庆汽摩
+https://live.goodiptv.club/api/cqyx.php?id=cqcarSD
+#EXTINF:-1 tvg-id="541" tvg-name="重庆移动" group-title="肥羊CQYX",重庆移动
+https://live.goodiptv.club/api/cqyx.php?id=mryyHD
+#EXTINF:-1 tvg-id="542" tvg-name="重广融媒" group-title="肥羊CQYX",重广融媒
+https://live.goodiptv.club/api/cqyx.php?id=cqrongmei
+#EXTINF:-1 tvg-id="543" tvg-name="优购物" group-title="肥羊CQYX",优购物
+https://live.goodiptv.club/api/cqyx.php?id=yougouwu
+#EXTINF:-1 tvg-id="544" tvg-name="家家购物" group-title="肥羊CQYX",家家购物
+https://live.goodiptv.club/api/cqyx.php?id=jjgw
+#EXTINF:-1 tvg-id="545" tvg-name="风尚购物" group-title="肥羊CQYX",风尚购物
+https://live.goodiptv.club/api/cqyx.php?id=fsgw
+#EXTINF:-1 tvg-id="546" tvg-name="聚鲨环球精选" group-title="肥羊CQYX",聚鲨环球精选
+https://live.goodiptv.club/api/cqyx.php?id=jusha
+#EXTINF:-1 tvg-id="547" tvg-name="家有购物" group-title="肥羊CQYX",家有购物
+https://live.goodiptv.club/api/cqyx.php?id=jygw
+#EXTINF:-1 tvg-id="548" tvg-name="央广购物" group-title="肥羊CQYX",央广购物
+https://live.goodiptv.club/api/cqyx.php?id=yggw
+#EXTINF:-1 tvg-id="549" tvg-name="东方财经" group-title="肥羊CQYX",东方财经
+https://live.goodiptv.club/api/cqyx.php?id=dfcj
+#EXTINF:-1 tvg-id="550" tvg-name="证券服务" group-title="肥羊CQYX",证券服务
+https://live.goodiptv.club/api/cqyx.php?id=jiazheng
+#EXTINF:-1 tvg-id="551" tvg-name="书画" group-title="肥羊CQYX",书画
+https://live.goodiptv.club/api/cqyx.php?id=shuhua
+#EXTINF:-1 tvg-id="552" tvg-name="新动漫" group-title="肥羊CQYX",新动漫
+https://live.goodiptv.club/api/cqyx.php?id=dongman
+#EXTINF:-1 tvg-id="553" tvg-name="国学频道" group-title="肥羊CQYX",国学频道
+https://live.goodiptv.club/api/cqyx.php?id=guoxue
+#EXTINF:-1 tvg-id="554" tvg-name="优优宝贝" group-title="肥羊CQYX",优优宝贝
+https://live.goodiptv.club/api/cqyx.php?id=youxi
+#EXTINF:-1 tvg-id="555" tvg-name="中华特产" group-title="肥羊CQYX",中华特产
+https://live.goodiptv.club/api/cqyx.php?id=techan
+#EXTINF:-1 tvg-id="556" tvg-name="环球奇观" group-title="肥羊CQYX",环球奇观
+https://live.goodiptv.club/api/cqyx.php?id=car
+#EXTINF:-1 tvg-id="557" tvg-name="生态环境" group-title="肥羊CQYX",生态环境
+https://live.goodiptv.club/api/cqyx.php?id=shengtai
+#EXTINF:-1 tvg-id="558" tvg-name="发现之旅" group-title="肥羊CQYX",发现之旅
+https://live.goodiptv.club/api/cqyx.php?id=faxian
+#EXTINF:-1 tvg-id="559" tvg-name="车迷" group-title="肥羊CQYX",车迷
+https://live.goodiptv.club/api/cqyx.php?id=doxtv
+#EXTINF:-1 tvg-id="560" tvg-name="法治天地" group-title="肥羊CQYX",法治天地
+https://live.goodiptv.club/api/cqyx.php?id=fazhi
+#EXTINF:-1 tvg-id="561" tvg-name="金色学堂" group-title="肥羊CQYX",金色学堂
+https://live.goodiptv.club/api/cqyx.php?id=jinse
+#EXTINF:-1 tvg-id="562" tvg-name="收藏天下" group-title="肥羊CQYX",收藏天下
+https://live.goodiptv.club/api/cqyx.php?id=soucang
+#EXTINF:-1 tvg-id="563" tvg-name="财富天下" group-title="肥羊CQYX",财富天下
+https://live.goodiptv.club/api/cqyx.php?id=caifu
+#EXTINF:-1 tvg-id="564" tvg-name="女性时尚" group-title="肥羊CQYX",女性时尚
+https://live.goodiptv.club/api/cqyx.php?id=nvxing
+#EXTINF:-1 tvg-id="565" tvg-name="中学生" group-title="肥羊CQYX",中学生
+https://live.goodiptv.club/api/cqyx.php?id=qicai
+#EXTINF:-1 tvg-id="566" tvg-name="天元围棋" group-title="肥羊CQYX",天元围棋
+https://live.goodiptv.club/api/cqyx.php?id=weiqi
+#EXTINF:-1 tvg-id="567" tvg-name="先锋乒羽" group-title="肥羊CQYX",先锋乒羽
+https://live.goodiptv.club/api/cqyx.php?id=xianfeng
+#EXTINF:-1 tvg-id="568" tvg-name="环球旅游" group-title="肥羊CQYX",环球旅游
+https://live.goodiptv.club/api/cqyx.php?id=huanqiulvyou
+#EXTINF:-1 tvg-id="569" tvg-name="老故事" group-title="肥羊CQYX",老故事
+https://live.goodiptv.club/api/cqyx.php?id=gushi
+#EXTINF:-1 tvg-id="570" tvg-name="摄影频道" group-title="肥羊CQYX",摄影频道
+https://live.goodiptv.club/api/cqyx.php?id=sheying
+#EXTINF:-1 tvg-id="571" tvg-name="靓妆" group-title="肥羊CQYX",靓妆
+https://live.goodiptv.club/api/cqyx.php?id=liang
+#EXTINF:-1 tvg-id="572" tvg-name="中央新影－发现之旅" group-title="肥羊YQGD",中央新影－发现之旅
+https://live.goodiptv.club/api/yqgd.php?id=fxzl
+#EXTINF:-1 tvg-id="573" tvg-name="中央新影－老故事" group-title="肥羊YQGD",中央新影－老故事
+https://live.goodiptv.club/api/yqgd.php?id=lgs
+#EXTINF:-1 tvg-id="574" tvg-name="央广购物" group-title="肥羊YQGD",央广购物
+https://live.goodiptv.club/api/yqgd.php?id=yggw
+#EXTINF:-1 tvg-id="575" tvg-name="书画" group-title="肥羊YQGD",书画
+https://live.goodiptv.club/api/yqgd.php?id=sh
+#EXTINF:-1 tvg-id="576" tvg-name="卡酷少儿" group-title="肥羊YQGD",卡酷少儿
+https://live.goodiptv.club/api/yqgd.php?id=kkse
+#EXTINF:-1 tvg-id="577" tvg-name="环球奇观" group-title="肥羊YQGD",环球奇观
+https://live.goodiptv.club/api/yqgd.php?id=hqqg
+#EXTINF:-1 tvg-id="578" tvg-name="都市剧场" group-title="肥羊YQGD",都市剧场
+https://live.goodiptv.club/api/yqgd.php?id=dsjc
+#EXTINF:-1 tvg-id="579" tvg-name="法治天地" group-title="肥羊YQGD",法治天地
+https://live.goodiptv.club/api/yqgd.php?id=fztd
+#EXTINF:-1 tvg-id="580" tvg-name="生活时尚" group-title="肥羊YQGD",生活时尚
+https://live.goodiptv.club/api/yqgd.php?id=shss
+#EXTINF:-1 tvg-id="581" tvg-name="金色学堂" group-title="肥羊YQGD",金色学堂
+https://live.goodiptv.club/api/yqgd.php?id=jsxt
+#EXTINF:-1 tvg-id="582" tvg-name="幸福彩" group-title="肥羊YQGD",幸福彩
+https://live.goodiptv.club/api/yqgd.php?id=xfc
+#EXTINF:-1 tvg-id="583" tvg-name="汽摩" group-title="肥羊YQGD",汽摩
+https://live.goodiptv.club/api/yqgd.php?id=qm
+#EXTINF:-1 tvg-id="584" tvg-name="家庭理财" group-title="肥羊YQGD",家庭理财
+https://live.goodiptv.club/api/yqgd.php?id=jtlc
+#EXTINF:-1 tvg-id="585" tvg-name="游戏竞技" group-title="肥羊YQGD",游戏竞技
+https://live.goodiptv.club/api/yqgd.php?id=yxjj
+#EXTINF:-1 tvg-id="586" tvg-name="网络棋牌" group-title="肥羊YQGD",网络棋牌
+https://live.goodiptv.club/api/yqgd.php?id=wlqp
+#EXTINF:-1 tvg-id="587" tvg-name="山西公共青运" group-title="肥羊YQGD",山西公共青运
+https://live.goodiptv.club/api/yqgd.php?id=sxggqy
+#EXTINF:-1 tvg-id="588" tvg-name="山西经济与科教" group-title="肥羊YQGD",山西经济与科教
+https://live.goodiptv.club/api/yqgd.php?id=sxjjkj
+#EXTINF:-1 tvg-id="589" tvg-name="山西社会与法治" group-title="肥羊YQGD",山西社会与法治
+https://live.goodiptv.club/api/yqgd.php?id=sxshfz
+#EXTINF:-1 tvg-id="590" tvg-name="山西文体生活" group-title="肥羊YQGD",山西文体生活
+https://live.goodiptv.club/api/yqgd.php?id=sxwtsh
+#EXTINF:-1 tvg-id="591" tvg-name="山西黄河" group-title="肥羊YQGD",山西黄河
+https://live.goodiptv.club/api/yqgd.php?id=sxhh
+#EXTINF:-1 tvg-id="592" tvg-name="收藏天下" group-title="肥羊YQGD",收藏天下
+https://live.goodiptv.club/api/yqgd.php?id=sctx
+#EXTINF:-1 tvg-id="593" tvg-name="国学频道" group-title="肥羊YQGD",国学频道
+https://live.goodiptv.club/api/yqgd.php?id=gxpd
+#EXTINF:-1 tvg-id="594" tvg-name="茶频道" group-title="肥羊YQGD",茶频道
+https://live.goodiptv.club/api/yqgd.php?id=cpd
+#EXTINF:-1 tvg-id="595" tvg-name="金鹰卡通" group-title="肥羊YQGD",金鹰卡通
+https://live.goodiptv.club/api/yqgd.php?id=jykt
+#EXTINF:-1 tvg-id="596" tvg-name="快乐垂钓" group-title="肥羊YQGD",快乐垂钓
+https://live.goodiptv.club/api/yqgd.php?id=klcd
+#EXTINF:-1 tvg-id="597" tvg-name="先锋乒羽" group-title="肥羊YQGD",先锋乒羽
+https://live.goodiptv.club/api/yqgd.php?id=xfpy
+#EXTINF:-1 tvg-id="598" tvg-name="财富天下" group-title="肥羊YQGD",财富天下
+https://live.goodiptv.club/api/yqgd.php?id=cftx
+#EXTINF:-1 tvg-id="599" tvg-name="靓妆" group-title="肥羊YQGD",靓妆
+https://live.goodiptv.club/api/yqgd.php?id=lz
+#EXTINF:-1 tvg-id="600" tvg-name="优漫卡通" group-title="肥羊YQGD",优漫卡通
+https://live.goodiptv.club/api/yqgd.php?id=ymkt
+#EXTINF:-1 tvg-id="601" tvg-name="摄影频道" group-title="肥羊YQGD",摄影频道
+https://live.goodiptv.club/api/yqgd.php?id=sypd
+#EXTINF:-1 tvg-id="602" tvg-name="北京冬奥" group-title="精品",北京冬奥
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226232/index.m3u8
+#EXTINF:-1 tvg-id="603" tvg-name="纪实人文" group-title="精品",纪实人文
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226230/index.m3u8
+#EXTINF:-1 tvg-id="604" tvg-name="求索纪录" group-title="精品",求索纪录
+http://39.134.66.110/PLTV/88888888/224/3221225713/index.m3u8
+#EXTINF:-1 tvg-id="605" tvg-name="黑莓电影" group-title="精品",黑莓电影
+http://39.134.66.110/PLTV/88888888/224/3221225681/index.m3u8
+#EXTINF:-1 tvg-id="606" tvg-name="黑莓动画" group-title="精品",黑莓动画
+http://39.134.66.110/PLTV/88888888/224/3221225529/index.m3u8
+#EXTINF:-1 tvg-id="607" tvg-name="爱情喜剧" group-title="精品",爱情喜剧
+http://39.134.66.110/PLTV/88888888/224/3221225533/index.m3u8
+#EXTINF:-1 tvg-id="608" tvg-name="超级电影" group-title="精品",超级电影
+http://39.134.66.110/PLTV/88888888/224/3221225644/index.m3u8
+#EXTINF:-1 tvg-id="609" tvg-name="超级体育" group-title="精品",超级体育
+http://39.134.66.110/PLTV/88888888/224/3221225635/index.m3u8
+#EXTINF:-1 tvg-id="610" tvg-name="超级综艺" group-title="精品",超级综艺
+http://39.134.66.110/PLTV/88888888/224/3221225642/index.m3u8
+#EXTINF:-1 tvg-id="611" tvg-name="潮妈辣婆" group-title="精品",潮妈辣婆
+http://39.134.66.110/PLTV/88888888/224/3221225542/index.m3u8
+#EXTINF:-1 tvg-id="612" tvg-name="东北热剧" group-title="精品",东北热剧
+http://39.134.66.110/PLTV/88888888/224/3221225679/index.m3u8
+#EXTINF:-1 tvg-id="613" tvg-name="北京冬奥" group-title="精品",北京冬奥
+http://39.134.66.110/PLTV/88888888/224/3221225670/index.m3u8
+#EXTINF:-1 tvg-id="614" tvg-name="动作电影" group-title="精品",动作电影
+http://39.134.66.110/PLTV/88888888/224/3221225555/index.m3u8
+#EXTINF:-1 tvg-id="615" tvg-name="古装剧场" group-title="精品",古装剧场
+http://39.134.66.110/PLTV/88888888/224/3221225524/index.m3u8
+#EXTINF:-1 tvg-id="616" tvg-name="欢乐剧场" group-title="精品",欢乐剧场
+http://39.134.66.110/PLTV/88888888/224/3221225682/index.m3u8
+#EXTINF:-1 tvg-id="617" tvg-name="纪实人文" group-title="精品",纪实人文
+http://39.134.66.110/PLTV/88888888/224/3221225673/index.m3u8
+#EXTINF:-1 tvg-id="618" tvg-name="家庭剧场" group-title="精品",家庭剧场
+http://39.134.66.110/PLTV/88888888/224/3221225538/index.m3u8
+#EXTINF:-1 tvg-id="619" tvg-name="金牌综艺" group-title="精品",金牌综艺
+http://39.134.66.110/PLTV/88888888/224/3221225525/index.m3u8
+#EXTINF:-1 tvg-id="620" tvg-name="惊悚悬疑" group-title="精品",惊悚悬疑
+http://39.134.66.110/PLTV/88888888/224/3221225553/index.m3u8
+#EXTINF:-1 tvg-id="621" tvg-name="军旅剧场" group-title="精品",军旅剧场
+http://39.134.66.110/PLTV/88888888/224/3221225560/index.m3u8
+#EXTINF:-1 tvg-id="622" tvg-name="军事评论" group-title="精品",军事评论
+http://39.134.66.110/PLTV/88888888/224/3221225535/index.m3u8
+#EXTINF:-1 tvg-id="623" tvg-name="农业致富" group-title="精品",农业致富
+http://39.134.66.110/PLTV/88888888/224/3221225552/index.m3u8
+#EXTINF:-1 tvg-id="624" tvg-name="武搏世界" group-title="精品",武搏世界
+http://39.134.66.110/PLTV/88888888/224/3221225547/index.m3u8
+#EXTINF:-1 tvg-id="625" tvg-name="炫舞未来" group-title="精品",炫舞未来
+http://39.134.66.110/PLTV/88888888/224/3221225646/index.m3u8
+#EXTINF:-1 tvg-id="626" tvg-name="中国功夫" group-title="精品",中国功夫
+http://39.134.66.110/PLTV/88888888/224/3221225604/index.m3u8
+#EXTINF:-1 tvg-id="627" tvg-name="金马影院" group-title="精品",金马影院
+http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
+#EXTINF:-1 tvg-id="628" tvg-name="足球频道" group-title="精品",足球频道
+https://nmglive.imfc.cn/5n1r1c/182396.m3u8
+#EXTINF:-1 tvg-id="629" tvg-name="黑莓电竞" group-title="NewTV",黑莓电竞
+http://39.134.66.66/PLTV/88888888/224/3221225559/index.m3u8
+#EXTINF:-1 tvg-id="630" tvg-name="黑莓电竞" group-title="NewTV",黑莓电竞
+http://39.135.138.60:18890/PLTV/88888910/224/3221225653/index.m3u8
+#EXTINF:-1 tvg-id="631" tvg-name="黑莓电影" group-title="NewTV",黑莓电影
+http://39.135.138.60:18890/PLTV/88888910/224/3221225718/index.m3u8
+#EXTINF:-1 tvg-id="632" tvg-name="黑莓电影" group-title="NewTV",黑莓电影
+http://gslbserv.itv.cmvideo.cn:80/000000001000/8785669936177902664/1.m3u8?channel-id=ystenlive&Contentid=8785669936177902664&livemode=1&stbId=003901FF0001181003FC08A5C8C6C037&userToken=85a5a98cdcab4d800a8ec29a9d917e8d10vv&usergroup=g10045200000&version=1.0&owaccmark=8785669936177902664&owchid=ystenlive&owsid=7951969344461621383
+#EXTINF:-1 tvg-id="633" tvg-name="黑莓动画" group-title="NewTV",黑莓动画
+http://39.134.66.66/PLTV/88888888/224/3221225529/index.m3u8
+#EXTINF:-1 tvg-id="634" tvg-name="黑莓动画" group-title="NewTV",黑莓动画
+http://39.135.138.59:18890/PLTV/88888910/224/3221225672/index.m3u8
+#EXTINF:-1 tvg-id="635" tvg-name="求索动物" group-title="NewTV",求索动物
+http://39.134.66.66/PLTV/88888888/224/3221225730/index.m3u8
+#EXTINF:-1 tvg-id="636" tvg-name="求索纪录" group-title="NewTV",求索纪录
+http://39.134.66.66/PLTV/88888888/224/3221225713/index.m3u8
+#EXTINF:-1 tvg-id="637" tvg-name="求索科学" group-title="NewTV",求索科学
+http://39.134.66.66/PLTV/88888888/224/3221225728/index.m3u8
+#EXTINF:-1 tvg-id="638" tvg-name="求索生活" group-title="NewTV",求索生活
+http://39.134.66.66/PLTV/88888888/224/3221225715/index.m3u8
+#EXTINF:-1 tvg-id="639" tvg-name="优漫卡通" group-title="NewTV",优漫卡通
+http://39.135.138.59:18890/PLTV/88888910/224/3221225665/index.m3u8
+#EXTINF:-1 tvg-id="640" tvg-name="金鹰卡通" group-title="NewTV",金鹰卡通
+http://39.135.138.59:18890/PLTV/88888910/224/3221225721/index.m3u8
+#EXTINF:-1 tvg-id="641" tvg-name="卡酷少儿" group-title="NewTV",卡酷少儿
+http://39.135.138.60:18890/PLTV/88888910/224/3221225677/index.m3u8
+#EXTINF:-1 tvg-id="642" tvg-name="都市剧场" group-title="NewTV",都市剧场
+http://183.207.255.188/live/program/live/dsjchd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="643" tvg-name="动漫秀场" group-title="NewTV",动漫秀场
+http://183.207.255.188/live/program/live/dmxchd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="644" tvg-name="游戏风云" group-title="NewTV",游戏风云
+http://183.207.255.188/live/program/live/yxfyhd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="645" tvg-name="生活时尚" group-title="NewTV",生活时尚
+http://183.207.255.188/live/program/live/shsshd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="646" tvg-name="全纪实" group-title="NewTV",全纪实
+http://183.207.255.188/live/program/live/qjshd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="647" tvg-name="超级体育" group-title="NewTV",超级体育
+http://39.135.138.58:18890/PLTV/88888888/224/3221225622/index.m3u8?blog.ntnas.top
+#EXTINF:-1 tvg-id="648" tvg-name="超级综艺" group-title="NewTV",超级综艺
+http://39.135.138.58:18890/PLTV/88888888/224/3221225620/index.m3u8?blog.ntnas.top
+#EXTINF:-1 tvg-id="649" tvg-name="东北热剧" group-title="NewTV",东北热剧
+http://39.135.138.58:18890/PLTV/88888888/224/3221226202/index.m3u8?blog.ntnas.top
+#EXTINF:-1 tvg-id="650" tvg-name="欢乐剧场" group-title="NewTV",欢乐剧场
+http://39.135.138.58:18890/PLTV/88888888/224/3221226210/index.m3u8?blog.ntnas.top
+#EXTINF:-1 tvg-id="651" tvg-name="炫舞未来" group-title="NewTV",炫舞未来
+http://39.135.138.58:18890/PLTV/88888888/224/3221225707/index.m3u8?blog.ntnas.top
+#EXTINF:-1 tvg-id="652" tvg-name="北京冬奥" group-title="NewTV",北京冬奥
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8
+#EXTINF:-1 tvg-id="653" tvg-name="北京冬奥" group-title="地方",北京冬奥
+http://39.135.138.58:18890/PLTV/88888888/224/3221225676/index.m3u8
+#EXTINF:-1 tvg-id="654" tvg-name="北京冬奥" group-title="地方",北京冬奥
+http://39.135.138.59:18890/PLTV/88888910/224/3221225675/index.m3u8
+#EXTINF:-1 tvg-id="655" tvg-name="北京冬奥" group-title="地方",北京冬奥
+http://39.135.138.60:18890/PLTV/88888910/224/3221225676/index.m3u8
+#EXTINF:-1 tvg-id="656" tvg-name="吉林乡村" group-title="地方",吉林乡村
+http://stream1.jlntv.cn/xcpd/sd/live.m3u8
+#EXTINF:-1 tvg-id="657" tvg-name="晋中公共" group-title="地方",晋中公共
+http://jzlive.jztvnews.com:90/live/jzgg.m3u8
+#EXTINF:-1 tvg-id="658" tvg-name="晋中综合" group-title="地方",晋中综合
+http://jzlive.jztvnews.com:90/live/jzzh.m3u8
+#EXTINF:-1 tvg-id="659" tvg-name="上海纪实人文" group-title="地方",上海纪实人文
+http://39.135.138.59:18890/PLTV/88888910/224/3221225655/index.m3u8
+#EXTINF:-1 tvg-id="660" tvg-name="上海纪实人文" group-title="地方",上海纪实人文
+http://39.135.138.60:18890/PLTV/88888910/224/3221225654/index.m3u8
+#EXTINF:-1 tvg-id="661" tvg-name="西安新闻" group-title="地方",西安新闻
+http://stream2.xiancity.cn/xatv1/sd/live.m3u8
+#EXTINF:-1 tvg-id="662" tvg-name="西安新闻综合" group-title="地方",西安新闻综合
+http://stream2.xiancity.cn/xatv1/playlist.m3u8
+#EXTINF:-1 tvg-id="663" tvg-name="浙江国际" group-title="地方",浙江国际
+http://hw-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
+#EXTINF:-1 tvg-id="664" tvg-name="浙江国际" group-title="地方",浙江国际
+http://hw-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
+#EXTINF:-1 tvg-id="665" tvg-name="浙江教育台" group-title="地方",浙江教育台
+http://hw-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+#EXTINF:-1 tvg-id="666" tvg-name="浙江教育台" group-title="地方",浙江教育台
+http://hw-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8
+#EXTINF:-1 tvg-id="667" tvg-name="浙江经济生活" group-title="地方",浙江经济生活
+http://hw-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
+#EXTINF:-1 tvg-id="668" tvg-name="浙江经济生活" group-title="地方",浙江经济生活
+http://hw-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8
+#EXTINF:-1 tvg-id="669" tvg-name="浙江留学" group-title="地方",浙江留学
+http://hw-m-l.cztv.com/channels/lantian/channel09/1080p.m3u8
+#EXTINF:-1 tvg-id="670" tvg-name="浙江龙泉" group-title="地方",浙江龙泉
+http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
+#EXTINF:-1 tvg-id="671" tvg-name="浙江民生休闲" group-title="地方",浙江民生休闲
+http://hw-m-l.cztv.com/channels/lantian/channel06/1080p.m3u8
+#EXTINF:-1 tvg-id="672" tvg-name="浙江民生休闲" group-title="地方",浙江民生休闲
+http://hw-m-l.cztv.com/channels/lantian/channel06/720p.m3u8
+#EXTINF:-1 tvg-id="673" tvg-name="浙江钱江频道" group-title="地方",浙江钱江频道
+http://hw-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+#EXTINF:-1 tvg-id="674" tvg-name="浙江钱江台" group-title="地方",浙江钱江台
+http://hw-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8
+#EXTINF:-1 tvg-id="675" tvg-name="浙江青田" group-title="地方",浙江青田
+http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8
+#EXTINF:-1 tvg-id="676" tvg-name="浙江少儿" group-title="地方",浙江少儿
+http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8
+#EXTINF:-1 tvg-id="677" tvg-name="浙江数码时代" group-title="地方",浙江数码时代
+http://hw-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+#EXTINF:-1 tvg-id="678" tvg-name="浙江松阳" group-title="地方",浙江松阳
+http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8
+#EXTINF:-1 tvg-id="679" tvg-name="浙江遂昌" group-title="地方",浙江遂昌
+http://l.cztvcloud.com/channels/lantian/SXsuichang1/720p.m3u8
+#EXTINF:-1 tvg-id="680" tvg-name="浙江新闻" group-title="地方",浙江新闻
+http://hw-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+#EXTINF:-1 tvg-id="681" tvg-name="浙江新闻" group-title="地方",浙江新闻
+http://hw-m-l.cztv.com/channels/lantian/channel07/1080p.m3u8
+#EXTINF:-1 tvg-id="682" tvg-name="浙江休闲台" group-title="地方",浙江休闲台
+http://hw-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
+#EXTINF:-1 tvg-id="683" tvg-name="浙江少儿" group-title="地方",浙江少儿
+http://hw-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+#EXTINF:-1 tvg-id="684" tvg-name="凤凰中文" group-title="世界",凤凰中文
+https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
+#EXTINF:-1 tvg-id="685" tvg-name="凤凰中文" group-title="世界",凤凰中文
+http://qspyx.7766.org:9999/tsfile/live/1106_1.m3u8
+#EXTINF:-1 tvg-id="686" tvg-name="凤凰资讯" group-title="世界",凤凰资讯
+http://qspyx.7766.org:9999/tsfile/live/1105_1.m3u8
+#EXTINF:-1 tvg-id="687" tvg-name="凤凰中文" group-title="世界",凤凰中文
+http://r.jdshipin.com/cCCzW
+#EXTINF:-1 tvg-id="688" tvg-name="凤凰资讯" group-title="世界",凤凰资讯
+http://r.jdshipin.com/0Rp07
+#EXTINF:-1 tvg-id="689" tvg-name="澳门莲花" group-title="世界",澳门莲花
+http://epg.112114.xyz/lotus
+#EXTINF:-1 tvg-id="690" tvg-name="无线新闻台" group-title="世界",无线新闻台
+http://r.jdshipin.com/CkuBd
+#EXTINF:-1 tvg-id="691" tvg-name="翡翠台" group-title="世界",翡翠台
+http://60.208.16.27:1505/gudou.php?id=1350_4500
+#EXTINF:-1 tvg-id="692" tvg-name="明珠台" group-title="世界",明珠台
+http://60.208.16.27:1505/gudou.php?id=1351_4500
+#EXTINF:-1 tvg-id="693" tvg-name="有線新聞" group-title="世界",有線新聞
+http://61.10.2.141/live_freedirect/hd110_h.live/playlist.m3u8
+#EXTINF:-1 tvg-id="694" tvg-name="翡翠台" group-title="世界",翡翠台
+https://live.astradamy.com/tvbfc/index.m3u8
+#EXTINF:-1 tvg-id="695" tvg-name="明珠台" group-title="世界",明珠台
+https://live.astradamy.com/tvbpearl/index.m3u8
+#EXTINF:-1 tvg-id="696" tvg-name="香港32台" group-title="世界",香港32台
+https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
+#EXTINF:-1 tvg-id="697" tvg-name="番薯" group-title="世界",番薯
+http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
+#EXTINF:-1 tvg-id="698" tvg-name="民視新聞" group-title="世界",民視新聞
+http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
+#EXTINF:-1 tvg-id="699" tvg-name="民視新聞" group-title="世界",民視新聞
+http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
+#EXTINF:-1 tvg-id="700" tvg-name="台視新聞" group-title="世界",台視新聞
+http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
+#EXTINF:-1 tvg-id="701" tvg-name="台視新聞" group-title="世界",台視新聞
+http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
+#EXTINF:-1 tvg-id="702" tvg-name="澳门莲花" group-title="世界",澳门莲花
+http://anren.live/HK/BiIOU11uLA.m3u8
+#EXTINF:-1 tvg-id="703" tvg-name="耀才財經台 (576p)" group-title="世界",耀才財經台 (576p)
+http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
+#EXTINF:-1 tvg-id="704" tvg-name="有线新闻台" group-title="世界",有线新闻台
+http://61.10.2.141/live_freedirect/freehd209_h.live/playlist.m3u8
+#EXTINF:-1 tvg-id="705" tvg-name="耀才财经新闻" group-title="世界",耀才财经新闻
+http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8?wowzasessionid=64000?zgangd
+#EXTINF:-1 tvg-id="706" tvg-name="番薯台" group-title="世界",番薯台
+http://61.216.67.119:1935/TWHG/E1/chunklist_w70581102.m3u8
+#EXTINF:-1 tvg-id="707" tvg-name="人間衛視" group-title="世界",人間衛視
+https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
+#EXTINF:-1 tvg-id="708" tvg-name="人間衛視" group-title="世界",人間衛視
+http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
+#EXTINF:-1 tvg-id="709" tvg-name="人間衛視" group-title="世界",人間衛視
+http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
+#EXTINF:-1 tvg-id="710" tvg-name="香港佛陀" group-title="世界",香港佛陀
+https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
+#EXTINF:-1 tvg-id="711" tvg-name="凤凰资讯" group-title="世界",凤凰资讯
+http://playtv-live.ifeng.com:80/live/06OLEEWQKN4.m3u8?zgangd
+#EXTINF:-1 tvg-id="712" tvg-name="澳门莲花" group-title="世界",澳门莲花
+http://anren.live/HK/BiIOU11uLA.m3u8?zgangd
+#EXTINF:-1 tvg-id="713" tvg-name="耀才財經" group-title="世界",耀才財經
+http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
+#EXTINF:-1 tvg-id="714" tvg-name="耀才財經" group-title="世界",耀才財經
+https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
+#EXTINF:-1 tvg-id="715" tvg-name="耀才財經" group-title="世界",耀才財經
+http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8?wowzasessionid=64000
+#EXTINF:-1 tvg-id="716" tvg-name="東森美洲" group-title="世界",東森美洲
+http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
+#EXTINF:-1 tvg-id="717" tvg-name="東森美洲" group-title="世界",東森美洲
+http://38.64.72.148/hls/modn/list/2015/chunklist0.m3u8
+#EXTINF:-1 tvg-id="718" tvg-name="美國中文電視" group-title="世界",美國中文電視
+https://jpts.sinovision.net/livestream.m3u8
+#EXTINF:-1 tvg-id="719" tvg-name="美國中文電視" group-title="世界",美國中文電視
+https://cdnts.sinovision.net/livestream.m3u8
+#EXTINF:-1 tvg-id="720" tvg-name="華語電視2" group-title="世界",華語電視2
+http://38.64.72.148:80/hls/modn/list/4002/chunklist1.m3u8
+#EXTINF:-1 tvg-id="721" tvg-name="華語電視3" group-title="世界",華語電視3
+http://38.64.72.148:80/hls/modn/list/4003/chunklist1.m3u8
+#EXTINF:-1 tvg-id="722" tvg-name="亚洲新闻" group-title="世界",亚洲新闻
+http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
+#EXTINF:-1 tvg-id="723" tvg-name="半·新闻" group-title="世界",半·新闻
+http://live-hls-web-aja.getaj.net/AJA/02.m3u8
+#EXTINF:-1 tvg-id="724" tvg-name="法·时尚" group-title="世界",法·时尚
+http://lb.streaming.sk/fashiontv/stream/chunklist_w1906011378.m3u8
+#EXTINF:-1 tvg-id="725" tvg-name="美·红牛运动" group-title="世界",美·红牛运动
+http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
+#EXTINF:-1 tvg-id="726" tvg-name="美·红牛运动" group-title="世界",美·红牛运动
+http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_928.m3u8
+#EXTINF:-1 tvg-id="727" tvg-name="泰·公共三台" group-title="世界",泰·公共三台
+http://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
+#EXTINF:-1 tvg-id="728" tvg-name="新加坡" group-title="世界",新加坡
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
+#EXTINF:-1 tvg-id="729" tvg-name="Family" group-title="世界",Family
+http://51.210.199.19/hls/stream.m3u8
+#EXTINF:-1 tvg-id="730" tvg-name="Iranian" group-title="世界",Iranian
+http://51.210.199.22/hls/stream.m3u8
+#EXTINF:-1 tvg-id="731" tvg-name="新加坡中文台" group-title="世界",新加坡中文台
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8?zshijd
+#EXTINF:-1 tvg-id="732" tvg-name="好消息综合台" group-title="世界",好消息综合台
+https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8
+#EXTINF:-1 tvg-id="733" tvg-name="东森电影" group-title="世界",东森电影
+http://103.112.191.9:880/LAOSAT1017.m3u8
+#EXTINF:-1 tvg-id="734" tvg-name="东森洋片" group-title="世界",东森洋片
+http://103.112.191.9:880/LAOSAT1018.m3u8
+#EXTINF:-1 tvg-id="735" tvg-name="天映频道" group-title="世界",天映频道
+http://103.112.191.9:880/LAOSAT1029.m3u8
+#EXTINF:-1 tvg-id="736" tvg-name="澳门莲花" group-title="世界",澳门莲花
+http://103.112.191.9:880/LAOSAT1069.m3u8
+#EXTINF:-1 tvg-id="737" tvg-name="博斯高球Ⅱ" group-title="世界",博斯高球Ⅱ
+http://103.112.191.9:880/LAOSAT1081.m3u8
+#EXTINF:-1 tvg-id="738" tvg-name="龙祥时代" group-title="世界",龙祥时代
+http://103.112.191.9:880/LAOSAT1084.m3u8
+#EXTINF:-1 tvg-id="739" tvg-name="국악방송" group-title="世界",국악방송
+http://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="740" tvg-name="Прямий" group-title="世界",Прямий
+http://95.67.21.100/hls/prm_ua_hi/index.m3u8
+#EXTINF:-1 tvg-id="741" tvg-name="朝鲜中央台" group-title="世界",朝鲜中央台
+http://119.77.96.184:1935/chn05/chn05/chunklist_w644291506.m3u8

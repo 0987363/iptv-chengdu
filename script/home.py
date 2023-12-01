@@ -18,6 +18,30 @@ sourceIcon51ZMT="http://epg.51zmt.top:8000"
 sourceChengduMulticast="http://epg.51zmt.top:8000/sctvmulticast.html"
 homeLanAddress="http://192.168.20.34:4000"
 
+groupCCTV=["CCTV", "CETV", "CGTN"]
+groupWS=[ "卫视"]
+groupSC=["SCTV", "四川", "CDTV", "熊猫", "峨眉", "成都"]
+listUnused=["单音轨", "画中画", "热门", "直播室", "爱", "92"]
+
+
+index = 1
+def getID():
+    global index
+    index = index+1
+    return index-1
+
+def setID(i):
+    global index
+    if i > index:
+        index = i+1
+    return index
+
+def checkChannelExist(listIptv, channel):
+    for k, v in listIptv.items():
+        if isIn(k, channel):
+            return True
+    return False
+
 def appendOnlineIptvFromTvbox(listIptv):
     onlineIptv = requests.get(sourceTvboxIptv).content
     lines = onlineIptv.splitlines()
@@ -29,26 +53,28 @@ def appendOnlineIptvFromTvbox(listIptv):
             g = groupMatch.group(1)
             if g not in listIptv:
                 listIptv[g] = []
-        else:
-            v=line.split(',')
-            listIptv[g].extend([{"name": v[0], "address": v[1]}])
+            continue
+        if g == "YouTube":
+            continue
+
+        v=line.split(',')
+
+        if checkChannelExist(listIptv, v[0]):
+            continue
+        listIptv[g].append({"id": getID(), "name": v[0], "address": v[1]})
 
 
 def isIn(items, v):
     for item in items:
-        if item in v:
+        if item in v:   # 字符串内检查是否有子字符串
             return True
 
 def filterCategory(v):
-    listCCTV=["CCTV", "CETV", "CGTN"]
-    listSC=[ "卫视"]
-    listTV=["SCTV", "四川", "CDTV", "熊猫", "峨眉", "成都"]
-
-    if isIn(listCCTV, v):
+    if isIn(groupCCTV, v):
         return "CCTV"
-    elif isIn(listSC, v):
+    elif isIn(groupWS, v):
         return "卫视"
-    elif isIn(listTV, v):
+    elif isIn(groupSC, v):
         return "四川"
     else:
         return "其他"
@@ -77,7 +103,7 @@ def loadIcon():
             continue
 
         href = ""
-        for a in td[0].find_all('a', href=True): 
+        for a in td[0].find_all('a', href=True):
             if a["href"] == "#":
                 continue
             href = a["href"]
@@ -93,11 +119,17 @@ def generateM3U8(file):
     title = '#EXTM3U name=\"' + name + '\"' + ' url-tvg=\"http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml\"\n\n'
     file.write(title)
 
-    for c in m:
-        line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["name"], c["tag"], c["name"])
-        file.write(line)
-        line = homeLanAddress + '/rtp/' + c["address"] + "\n"
-        file.write(line)
+    for k, v in m.items():
+        for c in v:
+            if "ct" in c:
+                line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["name"], k, c["name"])
+                line2 = homeLanAddress + '/rtp/' + c["address"] + "\n"
+            else:
+                line = '#EXTINF:-1 tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (getID(), c["name"], k, c["name"])
+                line2 = c["address"] + "\n"
+
+            file.write(line)
+            file.write(line2)
 
     file.close()
 
@@ -127,39 +159,41 @@ def generateTXT(file):
 
 def generateHome():
     generateM3U8("./home/iptv.m3u8")
-    generateTXT("./home/iptv.txt")
-
+    #generateTXT("./home/iptv.txt")
 
 #exit(0)
 
 
+mIcons = loadIcon()
+
 res = requests.get(sourceChengduMulticast).content
 soup = BeautifulSoup(res, 'lxml')
-m=[]
+m={}
 for tr in soup.find_all(name='tr'):
     td = tr.find_all(name='td')
     if td[0].string == "序号":
         continue
 
-    m.append({"id": td[0].string, "name": td[1].string, "address": td[2].string, "ct": True})
+    name = td[1].string
+    if isIn(listUnused, name):
+        continue
 
 
-listUnused=["单音轨", "画中画", "热门", "直播室", "爱", "92"]
-for c in m[:]:
-    if isIn(listUnused, c["name"]):
-        m.remove(c)
-    else:
-        c["name"]=c["name"].replace('超高清', '').replace('高清', '').replace('-', '').strip()
+    setID(int(td[0].string))
+
+    name = name.replace('超高清', '').replace('高清', '').replace('-', '').strip()
+
+    group = filterCategory(name)
+    icon = findIcon(mIcons, name)
+
+    if group not in m:
+        m[group] = []
+
+    m[group].append({"id": td[0].string, "name": name, "address": td[2].string, "ct": True, "icon": icon})
 
 
+appendOnlineIptvFromTvbox(m)
 
-mIcons = loadIcon()
-for c in m:
-    c["tag"] = filterCategory(c["name"])
-    c["icon"] = findIcon(mIcons, c["name"])
-        
-
-generateM3U8("./m3u8/chengdu.m3u8")
 generateHome()
 
 
