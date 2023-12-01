@@ -137,6 +137,7 @@ def generateM3U8(file):
             file.write(line2)
 
     file.close()
+    print("Build m3u8 success.")
 
 def generateTXT(file):
     file=open(file, "w")
@@ -152,6 +153,7 @@ def generateTXT(file):
             file.write(line)
 
     file.close()
+    print("Build txt success.")
 
 
 def generateHome():
