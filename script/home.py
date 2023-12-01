@@ -134,16 +134,8 @@ def generateM3U8(file):
     file.close()
 
 def generateTXT(file):
-    groups={}
-    for c in m:
-        if c["tag"] not in groups:
-            groups[c["tag"]] = []
-        groups[c["tag"]].extend([c])
-
-    appendOnlineIptvFromTvbox(groups)
-
     file=open(file, "w")
-    for k, v in groups.items():
+    for k, v in m.items():
         line = '%s,#genre#\n' % (k)
         file.write(line)
 
@@ -159,7 +151,7 @@ def generateTXT(file):
 
 def generateHome():
     generateM3U8("./home/iptv.m3u8")
-    #generateTXT("./home/iptv.txt")
+    generateTXT("./home/iptv.txt")
 
 #exit(0)
 
