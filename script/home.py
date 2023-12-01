@@ -60,8 +60,10 @@ def appendOnlineIptvFromTvbox(listIptv):
         v=line.split(',')
 
         if checkChannelExist(listIptv, v[0]):
+            listIptv[g].append({"id": getID(), "name": v[0], "address": v[1], "dup": True})
             continue
-        listIptv[g].append({"id": getID(), "name": v[0], "address": v[1]})
+        else:
+            listIptv[g].append({"id": getID(), "name": v[0], "address": v[1]})
 
 
 def isIn(items, v):
@@ -121,6 +123,9 @@ def generateM3U8(file):
 
     for k, v in m.items():
         for c in v:
+            if "dup" in c:
+                continue
+
             if "ct" in c:
                 line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["name"], k, c["name"])
                 line2 = homeLanAddress + '/rtp/' + c["address"] + "\n"
