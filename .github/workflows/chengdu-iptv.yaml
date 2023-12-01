@@ -32,10 +32,6 @@ jobs:
           pip install html5lib
           pip install strict-rfc3339
 
-      - name: Build chengdu m3u8
-        run: |
-          python3 ./script/chengdu.py
-
       - name: Build home m3u8
         run: |
           python3 ./script/home.py
