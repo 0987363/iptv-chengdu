@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2024-10-28T02:53:19Z" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
+#EXTM3U name="成都电信IPTV - 2024-11-04T02:52:28Z" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="CCTV",CCTV1
 http://192.168.20.34:4000/rtp/239.93.0.58:5140
@@ -176,6 +176,8 @@ http://192.168.20.34:4000/rtp/239.93.1.172:5140
 http://192.168.20.34:4000/rtp/239.93.1.178:5140
 #EXTINF:-1 tvg-logo="" tvg-id="197" tvg-name="i成都" group-title="四川",i成都
 http://192.168.20.34:4000/rtp/239.93.1.104:1234
+#EXTINF:-1 tvg-logo="" tvg-id="216" tvg-name="四川省首届“蜀乡村歌”大赛总决赛" group-title="四川",四川省首届“蜀乡村歌”大赛总决赛
+http://192.168.20.34:4000/rtp/239.93.42.59:5140
 #EXTINF:-1 tvg-logo="" tvg-id="23" tvg-name="精彩导视" group-title="其他",精彩导视
 http://192.168.20.34:4000/rtp/239.93.1.39:5140
 #EXTINF:-1 tvg-logo="" tvg-id="50" tvg-name="中国交通" group-title="其他",中国交通
@@ -184,13 +186,13 @@ http://192.168.20.34:4000/rtp/239.93.0.142:5140
 http://192.168.20.34:4000/rtp/239.93.0.100:5140
 #EXTINF:-1 tvg-logo="" tvg-id="72" tvg-name="北京纪实科教" group-title="其他",北京纪实科教
 http://192.168.20.34:4000/rtp/239.93.0.141:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" tvg-id="80" tvg-name="上海纪实" group-title="其他",上海纪实
+#EXTINF:-1 tvg-logo="" tvg-id="80" tvg-name="上海纪实" group-title="其他",上海纪实
 http://192.168.20.34:4000/rtp/239.93.1.137:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jinyingjishi.png" tvg-id="81" tvg-name="金鹰纪实" group-title="其他",金鹰纪实
+#EXTINF:-1 tvg-logo="" tvg-id="81" tvg-name="金鹰纪实" group-title="其他",金鹰纪实
 http://192.168.20.34:4000/rtp/239.93.0.130:5140
 #EXTINF:-1 tvg-logo="" tvg-id="90" tvg-name="炫动卡通" group-title="其他",炫动卡通
 http://192.168.20.34:4000/rtp/239.93.0.173:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jiajiakt.png" tvg-id="91" tvg-name="嘉佳卡通" group-title="其他",嘉佳卡通
+#EXTINF:-1 tvg-logo="" tvg-id="91" tvg-name="嘉佳卡通" group-title="其他",嘉佳卡通
 http://192.168.20.34:4000/rtp/239.93.0.246:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE22.jpg" tvg-id="93" tvg-name="汽摩" group-title="其他",汽摩
 http://192.168.20.34:4000/rtp/239.93.0.62:5140
@@ -216,7 +218,7 @@ http://192.168.20.34:4000/rtp/239.93.42.91:5140
 http://192.168.20.34:4000/rtp/239.93.42.1:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jinyingkatong.png" tvg-id="107" tvg-name="金鹰卡通" group-title="其他",金鹰卡通
 http://192.168.20.34:4000/rtp/239.93.0.5:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/youman.png" tvg-id="108" tvg-name="优漫卡通" group-title="其他",优漫卡通
+#EXTINF:-1 tvg-logo="" tvg-id="108" tvg-name="优漫卡通" group-title="其他",优漫卡通
 http://192.168.20.34:4000/rtp/239.93.0.251:5140
 #EXTINF:-1 tvg-logo="" tvg-id="109" tvg-name="宝宝动画专区" group-title="其他",宝宝动画专区
 http://192.168.20.34:4000/rtp/239.93.42.89:5140
@@ -232,7 +234,7 @@ http://192.168.20.34:4000/rtp/239.93.0.144:5140
 http://192.168.20.34:4000/rtp/239.93.0.217:9208
 #EXTINF:-1 tvg-logo="" tvg-id="116" tvg-name="魅力时尚专区" group-title="其他",魅力时尚专区
 http://192.168.20.34:4000/rtp/239.93.0.190:9012
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shenghuoshishang.png" tvg-id="117" tvg-name="生活时尚" group-title="其他",生活时尚
+#EXTINF:-1 tvg-logo="" tvg-id="117" tvg-name="生活时尚" group-title="其他",生活时尚
 http://192.168.20.34:4000/rtp/239.93.0.106:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/财富天下.png" tvg-id="119" tvg-name="财富天下" group-title="其他",财富天下
 http://192.168.20.34:4000/rtp/239.93.0.116:9136
@@ -240,7 +242,7 @@ http://192.168.20.34:4000/rtp/239.93.0.116:9136
 http://192.168.20.34:4000/rtp/239.93.42.85:5140
 #EXTINF:-1 tvg-logo="" tvg-id="122" tvg-name="电竞天堂专区" group-title="其他",电竞天堂专区
 http://192.168.20.34:4000/rtp/239.93.1.135:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/youxifengyun.png" tvg-id="123" tvg-name="游戏风云" group-title="其他",游戏风云
+#EXTINF:-1 tvg-logo="" tvg-id="123" tvg-name="游戏风云" group-title="其他",游戏风云
 http://192.168.20.34:4000/rtp/239.93.0.136:5140
 #EXTINF:-1 tvg-logo="" tvg-id="124" tvg-name="足球专区" group-title="其他",足球专区
 http://192.168.20.34:4000/rtp/239.93.0.197:9040
@@ -276,7 +278,7 @@ http://192.168.20.34:4000/rtp/239.93.42.30:5140
 http://192.168.20.34:4000/rtp/239.93.42.34:5140
 #EXTINF:-1 tvg-logo="" tvg-id="154" tvg-name="求索频道" group-title="其他",求索频道
 http://192.168.20.34:4000/rtp/239.93.42.24:5140
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shenghuoshishang.png" tvg-id="158" tvg-name="生活时尚" group-title="其他",生活时尚
+#EXTINF:-1 tvg-logo="" tvg-id="158" tvg-name="生活时尚" group-title="其他",生活时尚
 http://192.168.20.34:4000/rtp/239.93.42.29:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/BAMC6.jpg" tvg-id="159" tvg-name="环球旅游" group-title="其他",环球旅游
 http://192.168.20.34:4000/rtp/239.93.42.31:5140
@@ -372,8 +374,6 @@ http://192.168.20.34:4000/rtp/239.93.42.69:5140
 http://192.168.20.34:4000/rtp/239.93.42.68:5140
 #EXTINF:-1 tvg-logo="" tvg-id="215" tvg-name="云演艺宣传" group-title="其他",云演艺宣传
 http://192.168.20.34:4000/rtp/239.93.42.60:5140
-#EXTINF:-1 tvg-logo="" tvg-id="216" tvg-name="创新及人才文化节" group-title="其他",创新及人才文化节
-http://192.168.20.34:4000/rtp/239.93.42.59:5140
 #EXTINF:-1 tvg-logo="" tvg-id="217" tvg-name="华西证券" group-title="其他",华西证券
 http://192.168.20.34:4000/rtp/239.93.0.69:5140
 #EXTINF:-1 tvg-id="475" tvg-name="电影_星爷" group-title="轮播",电影_星爷
