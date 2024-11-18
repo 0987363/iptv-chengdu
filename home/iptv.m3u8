@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2024-11-11T02:46:50Z" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
+#EXTM3U name="成都电信IPTV - 2024-11-18T02:57:30Z" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="CCTV",CCTV1
 http://192.168.20.34:4000/rtp/239.93.0.58:5140
@@ -376,195 +376,83 @@ http://192.168.20.34:4000/rtp/239.93.42.68:5140
 http://192.168.20.34:4000/rtp/239.93.42.60:5140
 #EXTINF:-1 tvg-logo="" tvg-id="217" tvg-name="华西证券" group-title="其他",华西证券
 http://192.168.20.34:4000/rtp/239.93.0.69:5140
-#EXTINF:-1 tvg-id="475" tvg-name="电影_星爷" group-title="轮播",电影_星爷
-http://cfss.cc/cdn/hy/11342412.flv
-#EXTINF:-1 tvg-id="476" tvg-name="电影_英叔" group-title="轮播",电影_英叔
-http://cfss.cc/cdn/hy/11342421.flv
-#EXTINF:-1 tvg-id="477" tvg-name="电影_发哥" group-title="轮播",电影_发哥
-http://cfss.cc/cdn/hy/11342387.flv
-#EXTINF:-1 tvg-id="478" tvg-name="电影_成龙" group-title="轮播",电影_成龙
-http://cfss.cc/cdn/hy/11342386.flv
-#EXTINF:-1 tvg-id="479" tvg-name="电影_王晶" group-title="轮播",电影_王晶
-http://cfss.cc/cdn/hy/11602058.flv
-#EXTINF:-1 tvg-id="480" tvg-name="电影_沈腾" group-title="轮播",电影_沈腾
-http://cfss.cc/cdn/hy/11601968.flv
-#EXTINF:-1 tvg-id="481" tvg-name="电影_黄渤" group-title="轮播",电影_黄渤
-http://cfss.cc/cdn/hy/11352876.flv
-#EXTINF:-1 tvg-id="482" tvg-name="电影_强森" group-title="轮播",电影_强森
-http://cfss.cc/cdn/hy/21059581.flv
-#EXTINF:-1 tvg-id="483" tvg-name="电影_漫威" group-title="轮播",电影_漫威
-http://cfss.cc/cdn/hy/11602034.flv
-#EXTINF:-1 tvg-id="484" tvg-name="电影_宇宙" group-title="轮播",电影_宇宙
-http://cfss.cc/cdn/hy/11342428.flv
-#EXTINF:-1 tvg-id="485" tvg-name="电影_怪兽" group-title="轮播",电影_怪兽
-http://cfss.cc/cdn/hy/21059577.flv
-#EXTINF:-1 tvg-id="486" tvg-name="电影_贺岁" group-title="轮播",电影_贺岁
-http://cfss.cc/cdn/hy/11601971.flv
-#EXTINF:-1 tvg-id="487" tvg-name="电影_玄幻" group-title="轮播",电影_玄幻
-http://cfss.cc/cdn/hy/11342414.flv
-#EXTINF:-1 tvg-id="488" tvg-name="电影_谍战" group-title="轮播",电影_谍战
-http://cfss.cc/cdn/hy/21059585.flv
-#EXTINF:-1 tvg-id="489" tvg-name="电影_战争" group-title="轮播",电影_战争
-http://cfss.cc/cdn/hy/21059592.flv
-#EXTINF:-1 tvg-id="490" tvg-name="电影_喜剧" group-title="轮播",电影_喜剧
-http://cfss.cc/cdn/hy/11352877.flv
-#EXTINF:-1 tvg-id="491" tvg-name="电影_港片" group-title="轮播",电影_港片
-http://cfss.cc/cdn/hy/11602043.flv
-#EXTINF:-1 tvg-id="492" tvg-name="电影_国产" group-title="轮播",电影_国产
-http://cfss.cc/cdn/hy/11352973.flv
-#EXTINF:-1 tvg-id="493" tvg-name="电影_周星星" group-title="轮播",电影_周星星
-http://cfss.cc/cdn/hy/11336587.flv
-#EXTINF:-1 tvg-id="494" tvg-name="电影_李连杰" group-title="轮播",电影_李连杰
-http://cfss.cc/cdn/hy/11342390.flv
-#EXTINF:-1 tvg-id="495" tvg-name="电影_洪金宝" group-title="轮播",电影_洪金宝
-http://cfss.cc/cdn/hy/11279251.flv
-#EXTINF:-1 tvg-id="496" tvg-name="电影_梁家辉" group-title="轮播",电影_梁家辉
-http://cfss.cc/cdn/hy/11342429.flv
-#EXTINF:-1 tvg-id="497" tvg-name="电影_许冠英" group-title="轮播",电影_许冠英
-http://cfss.cc/cdn/hy/11601972.flv
-#EXTINF:-1 tvg-id="498" tvg-name="电影_刘德华" group-title="轮播",电影_刘德华
-http://cfss.cc/cdn/hy/11342424.flv
-#EXTINF:-1 tvg-id="499" tvg-name="电影_斯坦森" group-title="轮播",电影_斯坦森
-http://cfss.cc/cdn/hy/21059588.flv
-#EXTINF:-1 tvg-id="500" tvg-name="电影_蜘蛛侠" group-title="轮播",电影_蜘蛛侠
-http://cfss.cc/cdn/hy/21059599.flv
-#EXTINF:-1 tvg-id="501" tvg-name="电影_贺岁片" group-title="轮播",电影_贺岁片
-http://cfss.cc/cdn/hy/11601986.flv
-#EXTINF:-1 tvg-id="502" tvg-name="电影_功夫片" group-title="轮播",电影_功夫片
-http://cfss.cc/cdn/hy/11352941.flv
-#EXTINF:-1 tvg-id="503" tvg-name="电影_黑帮片" group-title="轮播",电影_黑帮片
-http://cfss.cc/cdn/hy/11336719.flv
-#EXTINF:-1 tvg-id="504" tvg-name="电影_丧尸片" group-title="轮播",电影_丧尸片
-http://cfss.cc/cdn/hy/21059578.flv
-#EXTINF:-1 tvg-id="505" tvg-name="电影_灾难片" group-title="轮播",电影_灾难片
-http://cfss.cc/cdn/hy/11602075.flv
-#EXTINF:-1 tvg-id="506" tvg-name="电影_谍战片" group-title="轮播",电影_谍战片
-http://cfss.cc/cdn/hy/21059587.flv
-#EXTINF:-1 tvg-id="507" tvg-name="电影_战争片" group-title="轮播",电影_战争片
-http://cfss.cc/cdn/hy/21059574.flv
-#EXTINF:-1 tvg-id="508" tvg-name="电影_犯罪片" group-title="轮播",电影_犯罪片
-http://cfss.cc/cdn/hy/11352974.flv
-#EXTINF:-1 tvg-id="509" tvg-name="电影_古装片" group-title="轮播",电影_古装片
-http://cfss.cc/cdn/hy/11336590.flv
-#EXTINF:-1 tvg-id="510" tvg-name="电影_高分动作" group-title="轮播",电影_高分动作
-http://cfss.cc/cdn/hy/11352884.flv
-#EXTINF:-1 tvg-id="511" tvg-name="电影_动作电影" group-title="轮播",电影_动作电影
-http://cfss.cc/cdn/hy/11602077.flv
-#EXTINF:-1 tvg-id="512" tvg-name="电影_搞笑喜剧" group-title="轮播",电影_搞笑喜剧
-http://cfss.cc/cdn/hy/11342423.flv
-#EXTINF:-1 tvg-id="513" tvg-name="电影_喜剧专场" group-title="轮播",电影_喜剧专场
-http://cfss.cc/cdn/hy/11602044.flv
-#EXTINF:-1 tvg-id="514" tvg-name="电影_欢笑影院" group-title="轮播",电影_欢笑影院
-http://cfss.cc/cdn/hy/11352894.flv
-#EXTINF:-1 tvg-id="515" tvg-name="电影_不挤影院" group-title="轮播",电影_不挤影院
-http://cfss.cc/cdn/hy/11352897.flv
-#EXTINF:-1 tvg-id="516" tvg-name="电影_国产悬疑" group-title="轮播",电影_国产悬疑
-http://cfss.cc/cdn/hy/11342395.flv
-#EXTINF:-1 tvg-id="517" tvg-name="电影_快意江湖" group-title="轮播",电影_快意江湖
-http://cfss.cc/cdn/hy/11342435.flv
-#EXTINF:-1 tvg-id="518" tvg-name="电影_黑帮斗争" group-title="轮播",电影_黑帮斗争
-http://cfss.cc/cdn/hy/11342419.flv
-#EXTINF:-1 tvg-id="519" tvg-name="电影_古墓系列" group-title="轮播",电影_古墓系列
-http://cfss.cc/cdn/hy/11352913.flv
-#EXTINF:-1 tvg-id="520" tvg-name="电影_嫣然影厅" group-title="轮播",电影_嫣然影厅
-http://cfss.cc/cdn/hy/11601977.flv
-#EXTINF:-1 tvg-id="521" tvg-name="电影_女神系列" group-title="轮播",电影_女神系列
-http://cfss.cc/cdn/hy/11336571.flv
-#EXTINF:-1 tvg-id="522" tvg-name="电影_经典女神" group-title="轮播",电影_经典女神
-http://cfss.cc/cdn/hy/11352909.flv
-#EXTINF:-1 tvg-id="523" tvg-name="电影_经典港片" group-title="轮播",电影_经典港片
-http://cfss.cc/cdn/hy/11352965.flv
-#EXTINF:-1 tvg-id="524" tvg-name="电影_喜乐影院" group-title="轮播",电影_喜乐影院
-http://cfss.cc/cdn/hy/21059580.flv
-#EXTINF:-1 tvg-id="525" tvg-name="电影_蘑菇影厅" group-title="轮播",电影_蘑菇影厅
-http://cfss.cc/cdn/hy/11601981.flv
-#EXTINF:-1 tvg-id="526" tvg-name="电影_搞笑恐怖" group-title="轮播",电影_搞笑恐怖
-http://cfss.cc/cdn/hy/11601960.flv
-#EXTINF:-1 tvg-id="527" tvg-name="电影_死神来了" group-title="轮播",电影_死神来了
-http://cfss.cc/cdn/hy/11352903.flv
-#EXTINF:-1 tvg-id="528" tvg-name="电影_变形金刚" group-title="轮播",电影_变形金刚
-http://cfss.cc/cdn/hy/21059596.flv
-#EXTINF:-1 tvg-id="529" tvg-name="电影_怪兽系列" group-title="轮播",电影_怪兽系列
-http://cfss.cc/cdn/hy/21059554.flv
-#EXTINF:-1 tvg-id="530" tvg-name="搞笑_陈翔六点半" group-title="轮播",搞笑_陈翔六点半
-http://cfss.cc/cdn/hy/11274154.flv
-#EXTINF:-1 tvg-id="531" tvg-name="黑莓电影" group-title="精品",黑莓电影
+#EXTINF:-1 tvg-id="419" tvg-name="黑莓电影" group-title="精品",黑莓电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
-#EXTINF:-1 tvg-id="532" tvg-name="黑莓动画" group-title="精品",黑莓动画
+#EXTINF:-1 tvg-id="420" tvg-name="黑莓动画" group-title="精品",黑莓动画
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
-#EXTINF:-1 tvg-id="533" tvg-name="纪实人文" group-title="精品",纪实人文
+#EXTINF:-1 tvg-id="421" tvg-name="纪实人文" group-title="精品",纪实人文
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
-#EXTINF:-1 tvg-id="534" tvg-name="超级电影" group-title="精品",超级电影
+#EXTINF:-1 tvg-id="422" tvg-name="超级电影" group-title="精品",超级电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
-#EXTINF:-1 tvg-id="535" tvg-name="哒啵赛事" group-title="精品",哒啵赛事
+#EXTINF:-1 tvg-id="423" tvg-name="哒啵赛事" group-title="精品",哒啵赛事
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225675/index.m3u8
-#EXTINF:-1 tvg-id="536" tvg-name="金牌综艺" group-title="精品",金牌综艺
+#EXTINF:-1 tvg-id="424" tvg-name="金牌综艺" group-title="精品",金牌综艺
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8
-#EXTINF:-1 tvg-id="537" tvg-name="咪咕体育" group-title="精品",咪咕体育
+#EXTINF:-1 tvg-id="425" tvg-name="咪咕体育" group-title="精品",咪咕体育
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226398/index.m3u8
-#EXTINF:-1 tvg-id="538" tvg-name="爱情喜剧" group-title="精品",爱情喜剧
+#EXTINF:-1 tvg-id="426" tvg-name="爱情喜剧" group-title="精品",爱情喜剧
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
-#EXTINF:-1 tvg-id="539" tvg-name="睛彩竞技" group-title="精品",睛彩竞技
+#EXTINF:-1 tvg-id="427" tvg-name="睛彩竞技" group-title="精品",睛彩竞技
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226472/index.m3u8
-#EXTINF:-1 tvg-id="540" tvg-name="睛彩篮球" group-title="精品",睛彩篮球
+#EXTINF:-1 tvg-id="428" tvg-name="睛彩篮球" group-title="精品",睛彩篮球
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226469/index.m3u8
-#EXTINF:-1 tvg-id="541" tvg-name="睛彩篮球" group-title="精品",睛彩篮球
+#EXTINF:-1 tvg-id="429" tvg-name="睛彩篮球" group-title="精品",睛彩篮球
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226147/index.m3u8
-#EXTINF:-1 tvg-id="542" tvg-name="睛彩竞技" group-title="精品",睛彩竞技
+#EXTINF:-1 tvg-id="430" tvg-name="睛彩竞技" group-title="精品",睛彩竞技
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8
-#EXTINF:-1 tvg-id="543" tvg-name="睛彩青少" group-title="精品",睛彩青少
+#EXTINF:-1 tvg-id="431" tvg-name="睛彩青少" group-title="精品",睛彩青少
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226508/index.m3u8
-#EXTINF:-1 tvg-id="544" tvg-name="卡酷少儿" group-title="精品",卡酷少儿
+#EXTINF:-1 tvg-id="432" tvg-name="卡酷少儿" group-title="精品",卡酷少儿
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8
-#EXTINF:-1 tvg-id="545" tvg-name="金鹰卡通" group-title="精品",金鹰卡通
+#EXTINF:-1 tvg-id="433" tvg-name="金鹰卡通" group-title="精品",金鹰卡通
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8
-#EXTINF:-1 tvg-id="546" tvg-name="优漫卡通" group-title="精品",优漫卡通
+#EXTINF:-1 tvg-id="434" tvg-name="优漫卡通" group-title="精品",优漫卡通
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8
-#EXTINF:-1 tvg-id="547" tvg-name="哈哈炫动" group-title="精品",哈哈炫动
+#EXTINF:-1 tvg-id="435" tvg-name="哈哈炫动" group-title="精品",哈哈炫动
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8
-#EXTINF:-1 tvg-id="548" tvg-name="超级体育" group-title="精品",超级体育
+#EXTINF:-1 tvg-id="436" tvg-name="超级体育" group-title="精品",超级体育
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
-#EXTINF:-1 tvg-id="549" tvg-name="超级综艺" group-title="精品",超级综艺
+#EXTINF:-1 tvg-id="437" tvg-name="超级综艺" group-title="精品",超级综艺
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8
-#EXTINF:-1 tvg-id="550" tvg-name="潮妈辣婆" group-title="精品",潮妈辣婆
+#EXTINF:-1 tvg-id="438" tvg-name="潮妈辣婆" group-title="精品",潮妈辣婆
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8
-#EXTINF:-1 tvg-id="551" tvg-name="东北热剧" group-title="精品",东北热剧
+#EXTINF:-1 tvg-id="439" tvg-name="东北热剧" group-title="精品",东北热剧
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
-#EXTINF:-1 tvg-id="552" tvg-name="动作电影" group-title="精品",动作电影
+#EXTINF:-1 tvg-id="440" tvg-name="动作电影" group-title="精品",动作电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8
-#EXTINF:-1 tvg-id="553" tvg-name="古装剧场" group-title="精品",古装剧场
+#EXTINF:-1 tvg-id="441" tvg-name="古装剧场" group-title="精品",古装剧场
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
-#EXTINF:-1 tvg-id="554" tvg-name="海外剧场" group-title="精品",海外剧场
+#EXTINF:-1 tvg-id="442" tvg-name="海外剧场" group-title="精品",海外剧场
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
-#EXTINF:-1 tvg-id="555" tvg-name="欢乐剧场" group-title="精品",欢乐剧场
+#EXTINF:-1 tvg-id="443" tvg-name="欢乐剧场" group-title="精品",欢乐剧场
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
-#EXTINF:-1 tvg-id="556" tvg-name="家庭剧场" group-title="精品",家庭剧场
+#EXTINF:-1 tvg-id="444" tvg-name="家庭剧场" group-title="精品",家庭剧场
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
-#EXTINF:-1 tvg-id="557" tvg-name="惊悚悬疑" group-title="精品",惊悚悬疑
+#EXTINF:-1 tvg-id="445" tvg-name="惊悚悬疑" group-title="精品",惊悚悬疑
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
-#EXTINF:-1 tvg-id="558" tvg-name="军旅剧场" group-title="精品",军旅剧场
+#EXTINF:-1 tvg-id="446" tvg-name="军旅剧场" group-title="精品",军旅剧场
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
-#EXTINF:-1 tvg-id="559" tvg-name="军事评论" group-title="精品",军事评论
+#EXTINF:-1 tvg-id="447" tvg-name="军事评论" group-title="精品",军事评论
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225668/index.m3u8
-#EXTINF:-1 tvg-id="560" tvg-name="明星大片" group-title="精品",明星大片
+#EXTINF:-1 tvg-id="448" tvg-name="明星大片" group-title="精品",明星大片
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
-#EXTINF:-1 tvg-id="561" tvg-name="农业致富" group-title="精品",农业致富
+#EXTINF:-1 tvg-id="449" tvg-name="农业致富" group-title="精品",农业致富
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225683/index.m3u8
-#EXTINF:-1 tvg-id="562" tvg-name="武搏世界" group-title="精品",武搏世界
+#EXTINF:-1 tvg-id="450" tvg-name="武搏世界" group-title="精品",武搏世界
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225680/index.m3u8
-#EXTINF:-1 tvg-id="563" tvg-name="炫舞未来" group-title="精品",炫舞未来
+#EXTINF:-1 tvg-id="451" tvg-name="炫舞未来" group-title="精品",炫舞未来
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225719/index.m3u8
-#EXTINF:-1 tvg-id="564" tvg-name="怡伴健康" group-title="精品",怡伴健康
+#EXTINF:-1 tvg-id="452" tvg-name="怡伴健康" group-title="精品",怡伴健康
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225673/index.m3u8
-#EXTINF:-1 tvg-id="565" tvg-name="中国功夫" group-title="精品",中国功夫
+#EXTINF:-1 tvg-id="453" tvg-name="中国功夫" group-title="精品",中国功夫
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
-#EXTINF:-1 tvg-id="566" tvg-name="纪实科教" group-title="精品",纪实科教
+#EXTINF:-1 tvg-id="454" tvg-name="纪实科教" group-title="精品",纪实科教
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8
-#EXTINF:-1 tvg-id="567" tvg-name="睛彩竞技" group-title="精品",睛彩竞技
+#EXTINF:-1 tvg-id="455" tvg-name="睛彩竞技" group-title="精品",睛彩竞技
 http://39.134.67.108/PLTV/88888888/224/3221225897/1.m3u8
-#EXTINF:-1 tvg-id="568" tvg-name="睛彩篮球" group-title="精品",睛彩篮球
+#EXTINF:-1 tvg-id="456" tvg-name="睛彩篮球" group-title="精品",睛彩篮球
 http://39.134.67.108/PLTV/88888888/224/3221225895/1.m3u8
-#EXTINF:-1 tvg-id="569" tvg-name="足球频道" group-title="精品",足球频道
+#EXTINF:-1 tvg-id="457" tvg-name="足球频道" group-title="精品",足球频道
 https://nmglive.imfc.cn/5n1r1c/182396.m3u8
-#EXTINF:-1 tvg-id="570" tvg-name="卡酷少儿" group-title="精品",卡酷少儿
+#EXTINF:-1 tvg-id="458" tvg-name="卡酷少儿" group-title="精品",卡酷少儿
 http://39.134.67.108/PLTV/88888888/224/3221225562/1.m3u8
