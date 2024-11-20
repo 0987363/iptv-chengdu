@@ -191,7 +191,7 @@ for tr in soup.find_all(name='tr'):
     m[group].append({"id": td[0].string, "name": name, "address": td[2].string, "ct": True, "icon": icon})
 
 
-appendOnlineIptvFromTvbox(m)
+#appendOnlineIptvFromTvbox(m)
 
 generateHome()
 
