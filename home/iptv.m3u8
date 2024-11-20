@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2024-11-18T02:57:30Z" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
+#EXTM3U name="成都电信IPTV - 2024-11-20T10:07:13Z" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="CCTV",CCTV1
 http://192.168.20.34:4000/rtp/239.93.0.58:5140
@@ -376,83 +376,3 @@ http://192.168.20.34:4000/rtp/239.93.42.68:5140
 http://192.168.20.34:4000/rtp/239.93.42.60:5140
 #EXTINF:-1 tvg-logo="" tvg-id="217" tvg-name="华西证券" group-title="其他",华西证券
 http://192.168.20.34:4000/rtp/239.93.0.69:5140
-#EXTINF:-1 tvg-id="419" tvg-name="黑莓电影" group-title="精品",黑莓电影
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
-#EXTINF:-1 tvg-id="420" tvg-name="黑莓动画" group-title="精品",黑莓动画
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
-#EXTINF:-1 tvg-id="421" tvg-name="纪实人文" group-title="精品",纪实人文
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
-#EXTINF:-1 tvg-id="422" tvg-name="超级电影" group-title="精品",超级电影
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
-#EXTINF:-1 tvg-id="423" tvg-name="哒啵赛事" group-title="精品",哒啵赛事
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225675/index.m3u8
-#EXTINF:-1 tvg-id="424" tvg-name="金牌综艺" group-title="精品",金牌综艺
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8
-#EXTINF:-1 tvg-id="425" tvg-name="咪咕体育" group-title="精品",咪咕体育
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226398/index.m3u8
-#EXTINF:-1 tvg-id="426" tvg-name="爱情喜剧" group-title="精品",爱情喜剧
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
-#EXTINF:-1 tvg-id="427" tvg-name="睛彩竞技" group-title="精品",睛彩竞技
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226472/index.m3u8
-#EXTINF:-1 tvg-id="428" tvg-name="睛彩篮球" group-title="精品",睛彩篮球
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226469/index.m3u8
-#EXTINF:-1 tvg-id="429" tvg-name="睛彩篮球" group-title="精品",睛彩篮球
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226147/index.m3u8
-#EXTINF:-1 tvg-id="430" tvg-name="睛彩竞技" group-title="精品",睛彩竞技
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8
-#EXTINF:-1 tvg-id="431" tvg-name="睛彩青少" group-title="精品",睛彩青少
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226508/index.m3u8
-#EXTINF:-1 tvg-id="432" tvg-name="卡酷少儿" group-title="精品",卡酷少儿
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8
-#EXTINF:-1 tvg-id="433" tvg-name="金鹰卡通" group-title="精品",金鹰卡通
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8
-#EXTINF:-1 tvg-id="434" tvg-name="优漫卡通" group-title="精品",优漫卡通
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8
-#EXTINF:-1 tvg-id="435" tvg-name="哈哈炫动" group-title="精品",哈哈炫动
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8
-#EXTINF:-1 tvg-id="436" tvg-name="超级体育" group-title="精品",超级体育
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
-#EXTINF:-1 tvg-id="437" tvg-name="超级综艺" group-title="精品",超级综艺
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8
-#EXTINF:-1 tvg-id="438" tvg-name="潮妈辣婆" group-title="精品",潮妈辣婆
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8
-#EXTINF:-1 tvg-id="439" tvg-name="东北热剧" group-title="精品",东北热剧
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
-#EXTINF:-1 tvg-id="440" tvg-name="动作电影" group-title="精品",动作电影
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8
-#EXTINF:-1 tvg-id="441" tvg-name="古装剧场" group-title="精品",古装剧场
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
-#EXTINF:-1 tvg-id="442" tvg-name="海外剧场" group-title="精品",海外剧场
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
-#EXTINF:-1 tvg-id="443" tvg-name="欢乐剧场" group-title="精品",欢乐剧场
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
-#EXTINF:-1 tvg-id="444" tvg-name="家庭剧场" group-title="精品",家庭剧场
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
-#EXTINF:-1 tvg-id="445" tvg-name="惊悚悬疑" group-title="精品",惊悚悬疑
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
-#EXTINF:-1 tvg-id="446" tvg-name="军旅剧场" group-title="精品",军旅剧场
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
-#EXTINF:-1 tvg-id="447" tvg-name="军事评论" group-title="精品",军事评论
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225668/index.m3u8
-#EXTINF:-1 tvg-id="448" tvg-name="明星大片" group-title="精品",明星大片
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
-#EXTINF:-1 tvg-id="449" tvg-name="农业致富" group-title="精品",农业致富
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225683/index.m3u8
-#EXTINF:-1 tvg-id="450" tvg-name="武搏世界" group-title="精品",武搏世界
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225680/index.m3u8
-#EXTINF:-1 tvg-id="451" tvg-name="炫舞未来" group-title="精品",炫舞未来
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225719/index.m3u8
-#EXTINF:-1 tvg-id="452" tvg-name="怡伴健康" group-title="精品",怡伴健康
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225673/index.m3u8
-#EXTINF:-1 tvg-id="453" tvg-name="中国功夫" group-title="精品",中国功夫
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
-#EXTINF:-1 tvg-id="454" tvg-name="纪实科教" group-title="精品",纪实科教
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8
-#EXTINF:-1 tvg-id="455" tvg-name="睛彩竞技" group-title="精品",睛彩竞技
-http://39.134.67.108/PLTV/88888888/224/3221225897/1.m3u8
-#EXTINF:-1 tvg-id="456" tvg-name="睛彩篮球" group-title="精品",睛彩篮球
-http://39.134.67.108/PLTV/88888888/224/3221225895/1.m3u8
-#EXTINF:-1 tvg-id="457" tvg-name="足球频道" group-title="精品",足球频道
-https://nmglive.imfc.cn/5n1r1c/182396.m3u8
-#EXTINF:-1 tvg-id="458" tvg-name="卡酷少儿" group-title="精品",卡酷少儿
-http://39.134.67.108/PLTV/88888888/224/3221225562/1.m3u8
