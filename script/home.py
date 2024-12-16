@@ -158,7 +158,7 @@ def generateTXT(file):
 
 def generateHome():
     generateM3U8("./home/iptv.m3u8")
-    generateTXT("./home/iptv.txt")
+    #generateTXT("./home/iptv.txt")
 
 #exit(0)
 
