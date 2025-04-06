@@ -1,6 +1,8 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="null" group-title="户外", 老狼雄起
+#EXTINF:-1 tvg-logo="https://tv.iill.top/LOGO/6554039&douyu&logo" group-title="户外", 老狼雄起 - 斗鱼
 https://live.iill.top/douyu/6554039
+#EXTINF:-1 tvg-logo="https://tv.iill.top/LOGO/317637694923&douyin&logo" group-title="户外", 老狼雄起 - 抖音
+https://live.iill.top/douyin/317637694923
 #EXTINF:-1 tvg-logo="null" group-title="户外", 叶子户外
 https://live.iill.top/douyu/12580
 
