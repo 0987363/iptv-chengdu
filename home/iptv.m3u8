@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2025-04-07T03:01:47Z" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
+#EXTM3U name="成都电信IPTV - 2025-04-14T03:04:47Z" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="CCTV",CCTV1
 http://192.168.20.34:4000/rtp/239.93.0.58:5140
@@ -126,6 +126,8 @@ http://192.168.20.34:4000/rtp/239.93.1.196:5140
 http://192.168.20.34:4000/rtp/239.93.0.249:5140
 #EXTINF:-1 tvg-logo="" tvg-id="73" tvg-name="安多卫视" group-title="卫视",安多卫视
 http://192.168.20.34:4000/rtp/239.93.0.234:5140
+#EXTINF:-1 tvg-logo="" tvg-id="186" tvg-name="北京卫视4K" group-title="卫视",北京卫视4K
+http://192.168.20.34:4000/rtp/239.93.42.102:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/cdtv1.png" tvg-id="18" tvg-name="CDTV1" group-title="四川",CDTV1
 http://192.168.20.34:4000/rtp/239.93.0.16:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv2.png" tvg-id="33" tvg-name="SCTV2" group-title="四川",SCTV2
@@ -172,9 +174,9 @@ http://192.168.20.34:4000/rtp/239.93.0.211:9148
 http://192.168.20.34:4000/rtp/239.93.1.172:5140
 #EXTINF:-1 tvg-logo="" tvg-id="171" tvg-name="熊猫24小时专区" group-title="四川",熊猫24小时专区
 http://192.168.20.34:4000/rtp/239.93.1.178:5140
-#EXTINF:-1 tvg-logo="" tvg-id="186" tvg-name="i成都" group-title="四川",i成都
+#EXTINF:-1 tvg-logo="" tvg-id="187" tvg-name="i成都" group-title="四川",i成都
 http://192.168.20.34:4000/rtp/239.93.1.104:1234
-#EXTINF:-1 tvg-logo="" tvg-id="205" tvg-name="四川省首届“蜀乡村歌”大赛总决赛" group-title="四川",四川省首届“蜀乡村歌”大赛总决赛
+#EXTINF:-1 tvg-logo="" tvg-id="206" tvg-name="四川省首届“蜀乡村歌”大赛总决赛" group-title="四川",四川省首届“蜀乡村歌”大赛总决赛
 http://192.168.20.34:4000/rtp/239.93.42.59:5140
 #EXTINF:-1 tvg-logo="" tvg-id="23" tvg-name="精彩导视" group-title="其他",精彩导视
 http://192.168.20.34:4000/rtp/239.93.1.39:5140
@@ -324,25 +326,25 @@ http://192.168.20.34:4000/rtp/239.93.42.5:5140
 http://192.168.20.34:4000/rtp/239.93.42.7:5140
 #EXTINF:-1 tvg-logo="" tvg-id="185" tvg-name="欢笑剧场4K" group-title="其他",欢笑剧场4K
 http://192.168.20.34:4000/rtp/239.93.0.145:5140
-#EXTINF:-1 tvg-logo="" tvg-id="187" tvg-name="中国体育1" group-title="其他",中国体育1
+#EXTINF:-1 tvg-logo="" tvg-id="188" tvg-name="中国体育1" group-title="其他",中国体育1
 http://192.168.20.34:4000/rtp/239.93.42.25:5140
-#EXTINF:-1 tvg-logo="" tvg-id="188" tvg-name="中国体育2" group-title="其他",中国体育2
+#EXTINF:-1 tvg-logo="" tvg-id="189" tvg-name="中国体育2" group-title="其他",中国体育2
 http://192.168.20.34:4000/rtp/239.93.42.26:5140
-#EXTINF:-1 tvg-logo="" tvg-id="189" tvg-name="中国体育3" group-title="其他",中国体育3
+#EXTINF:-1 tvg-logo="" tvg-id="190" tvg-name="中国体育3" group-title="其他",中国体育3
 http://192.168.20.34:4000/rtp/239.93.42.27:5140
-#EXTINF:-1 tvg-logo="" tvg-id="190" tvg-name="精彩推荐专区" group-title="其他",精彩推荐专区
+#EXTINF:-1 tvg-logo="" tvg-id="191" tvg-name="精彩推荐专区" group-title="其他",精彩推荐专区
 http://192.168.20.34:4000/rtp/239.93.1.5:5140
-#EXTINF:-1 tvg-logo="" tvg-id="199" tvg-name="红原日干乔" group-title="其他",红原日干乔
+#EXTINF:-1 tvg-logo="" tvg-id="200" tvg-name="红原日干乔" group-title="其他",红原日干乔
 http://192.168.20.34:4000/rtp/239.93.0.178:5140
-#EXTINF:-1 tvg-logo="" tvg-id="200" tvg-name="红原月亮湾" group-title="其他",红原月亮湾
+#EXTINF:-1 tvg-logo="" tvg-id="201" tvg-name="红原月亮湾" group-title="其他",红原月亮湾
 http://192.168.20.34:4000/rtp/239.93.0.209:5140
-#EXTINF:-1 tvg-logo="" tvg-id="201" tvg-name="电信导视3" group-title="其他",电信导视3
+#EXTINF:-1 tvg-logo="" tvg-id="202" tvg-name="电信导视3" group-title="其他",电信导视3
 http://192.168.20.34:4000/rtp/239.93.0.110:5140
-#EXTINF:-1 tvg-logo="" tvg-id="202" tvg-name="雅克音乐节直播" group-title="其他",雅克音乐节直播
+#EXTINF:-1 tvg-logo="" tvg-id="203" tvg-name="雅克音乐节直播" group-title="其他",雅克音乐节直播
 http://192.168.20.34:4000/rtp/239.93.42.69:5140
-#EXTINF:-1 tvg-logo="" tvg-id="203" tvg-name="雅克音乐节宣传" group-title="其他",雅克音乐节宣传
+#EXTINF:-1 tvg-logo="" tvg-id="204" tvg-name="雅克音乐节宣传" group-title="其他",雅克音乐节宣传
 http://192.168.20.34:4000/rtp/239.93.42.68:5140
-#EXTINF:-1 tvg-logo="" tvg-id="204" tvg-name="云演艺宣传" group-title="其他",云演艺宣传
+#EXTINF:-1 tvg-logo="" tvg-id="205" tvg-name="云演艺宣传" group-title="其他",云演艺宣传
 http://192.168.20.34:4000/rtp/239.93.42.60:5140
-#EXTINF:-1 tvg-logo="" tvg-id="206" tvg-name="华西证券" group-title="其他",华西证券
+#EXTINF:-1 tvg-logo="" tvg-id="207" tvg-name="华西证券" group-title="其他",华西证券
 http://192.168.20.34:4000/rtp/239.93.0.69:5140
