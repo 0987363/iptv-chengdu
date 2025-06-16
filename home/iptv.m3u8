@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2025-06-09T03:20:13Z" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
+#EXTM3U name="成都电信IPTV - 2025-06-16T03:19:45Z" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="CCTV",CCTV1
 http://192.168.20.34:4000/rtp/239.93.0.184:5140
@@ -127,7 +127,7 @@ http://192.168.20.34:4000/rtp/239.93.0.234:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/chongqing.png" tvg-id="73" tvg-name="重庆卫视" group-title="卫视",重庆卫视
 http://192.168.20.34:4000/rtp/239.93.0.112:5140
 #EXTINF:-1 tvg-logo="" tvg-id="186" tvg-name="北京卫视4K" group-title="卫视",北京卫视4K
-http://192.168.20.34:4000/rtp/239.93.42.102:5140
+http://192.168.20.34:4000/rtp/239.94.0.111:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/cdtv1.png" tvg-id="18" tvg-name="CDTV1" group-title="四川",CDTV1
 http://192.168.20.34:4000/rtp/239.93.0.16:5140
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv2.png" tvg-id="33" tvg-name="SCTV2" group-title="四川",SCTV2
@@ -199,7 +199,7 @@ http://192.168.20.34:4000/rtp/239.93.42.48:5140
 #EXTINF:-1 tvg-logo="" tvg-id="99" tvg-name="经典电影专区" group-title="其他",经典电影专区
 http://192.168.20.34:4000/rtp/239.93.0.57:9024
 #EXTINF:-1 tvg-logo="" tvg-id="100" tvg-name="华语影院专区" group-title="其他",华语影院专区
-http://192.168.20.34:4000/rtp/239.93.42.86:5140
+http://192.168.20.34:4000/rtp/239.94.1.22:5140
 #EXTINF:-1 tvg-logo="" tvg-id="101" tvg-name="星光院线专区" group-title="其他",星光院线专区
 http://192.168.20.34:4000/rtp/239.93.42.87:5140
 #EXTINF:-1 tvg-logo="" tvg-id="102" tvg-name="全球大片专区" group-title="其他",全球大片专区
