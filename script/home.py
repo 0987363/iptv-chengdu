@@ -14,8 +14,8 @@ import re
 #   res=f.read()
 
 sourceTvboxIptv="https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt"
-sourceIcon51ZMT="http://epg.51zmt.top:8000"
-sourceChengduMulticast="http://epg.51zmt.top:8000/sctvmulticast.html"
+sourceIcon51ZMT="http://epg.51zmt.top:8001"
+sourceChengduMulticast="http://epg.51zmt.top:8001/sctvmulticast.html"
 homeLanAddress="http://192.168.20.34:4000"
 
 groupCCTV=["CCTV", "CETV", "CGTN"]
