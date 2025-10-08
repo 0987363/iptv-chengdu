@@ -14,10 +14,10 @@ import re
 #   res=f.read()
 
 sourceTvboxIptv="https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt"
-sourceIcon51ZMT="http://epg.51zmt.top:8001"
-sourceChengduMulticast="http://epg.51zmt.top:8001/sctvmulticast.html"
+sourceIcon51ZMT="https://epg.51zmt.top:8001"
+sourceChengduMulticast="https://epg.51zmt.top:8001/sctvmulticast.html"
 homeLanAddress="http://192.168.20.34:4000"
-totalEPG="http://epg.51zmt.top:8001/e.xml,https://epg.112114.xyz/pp.xml"
+totalEPG="https://epg.51zmt.top:8001/e.xml,https://epg.112114.xyz/pp.xml"
 
 groupCCTV=["CCTV", "CETV", "CGTN"]
 groupWS=[ "卫视"]
@@ -44,7 +44,7 @@ def checkChannelExist(listIptv, channel):
     return False
 
 def appendOnlineIptvFromTvbox(listIptv):
-    onlineIptv = requests.get(sourceTvboxIptv).content
+    onlineIptv = requests.get(sourceTvboxIptv, verify=False).content
     lines = onlineIptv.splitlines()
 
     for line in lines:
@@ -92,7 +92,7 @@ def findIcon(m, id):
 
 
 def loadIcon():
-    res = requests.get(sourceIcon51ZMT).content
+    res = requests.get(sourceIcon51ZMT, verify=False).content
     m=[]
     #res=""
     #with open('./index.html') as f:
@@ -166,7 +166,7 @@ def generateHome():
 
 mIcons = loadIcon()
 
-res = requests.get(sourceChengduMulticast).content
+res = requests.get(sourceChengduMulticast, verify=False).content
 soup = BeautifulSoup(res, 'lxml')
 m={}
 for tr in soup.find_all(name='tr'):
