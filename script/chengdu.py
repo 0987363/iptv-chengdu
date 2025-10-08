@@ -11,7 +11,7 @@ import strict_rfc3339
 res=""
 #with open('./sctvmulticast.html') as f:
 #   res=f.read()
-res = requests.get("http://epg.51zmt.top:8000/sctvmulticast.html").content
+res = requests.get("http://epg.51zmt.top:8001/sctvmulticast.html").content
 
 
 def isIn(items, v):
@@ -36,14 +36,14 @@ def filterCategory(v):
 def findIcon(m, id):
     for v in m:
         if v["name"] == id:
-            return urljoin('http://epg.51zmt.top:8000', v["icon"])
-            #return 'http://epg.51zmt.top:8000/' + v["icon"]
+            return urljoin('http://epg.51zmt.top:8001', v["icon"])
+            #return 'http://epg.51zmt.top:8001/' + v["icon"]
 
     return ""
 
 
 def loadIcon():
-    res = requests.get("http://epg.51zmt.top:8000").content
+    res = requests.get("http://epg.51zmt.top:8001").content
     m=[]
     #res=""
     #with open('./index.html') as f:
@@ -97,7 +97,7 @@ for c in m:
 
 file=open("./m3u8/chengdu.m3u8", "w")
 name = '成都电信IPTV - ' + strict_rfc3339.now_to_rfc3339_utcoffset()
-title = '#EXTM3U name=\"' + name + '\"' + ' url-tvg=\"http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml\"\n\n'
+title = '#EXTM3U name=\"' + name + '\"' + ' url-tvg=\"http://epg.51zmt.top:8001/e.xml,https://epg.112114.xyz/pp.xml\"\n\n'
 file.write(title)
 
 for c in m:

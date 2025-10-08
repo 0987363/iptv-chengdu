@@ -17,6 +17,7 @@ sourceTvboxIptv="https://raw.githubusercontent.com/gaotianliuyun/gao/master/list
 sourceIcon51ZMT="http://epg.51zmt.top:8001"
 sourceChengduMulticast="http://epg.51zmt.top:8001/sctvmulticast.html"
 homeLanAddress="http://192.168.20.34:4000"
+totalEPG="http://epg.51zmt.top:8001/e.xml,https://epg.112114.xyz/pp.xml"
 
 groupCCTV=["CCTV", "CETV", "CGTN"]
 groupWS=[ "卫视"]
@@ -85,7 +86,7 @@ def findIcon(m, id):
     for v in m:
         if v["name"] == id:
             return urljoin(sourceIcon51ZMT, v["icon"])
-            #return 'http://epg.51zmt.top:8000/' + v["icon"]
+            #return 'http://epg.51zmt.top:8001/' + v["icon"]
 
     return ""
 
@@ -118,7 +119,7 @@ def loadIcon():
 def generateM3U8(file):
     file=open(file, "w")
     name = '成都电信IPTV - ' + strict_rfc3339.now_to_rfc3339_utcoffset()
-    title = '#EXTM3U name=\"' + name + '\"' + ' url-tvg=\"http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml\"\n\n'
+    title = '#EXTM3U name=\"' + name + '\"' + ' url-tvg=\"' + totalEPG + '\"\n\n'
     file.write(title)
 
     for k, v in m.items():
