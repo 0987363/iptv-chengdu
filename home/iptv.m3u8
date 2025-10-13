@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2025-10-08T03:00:04Z" url-tvg="https://epg.51zmt.top:8001/e.xml,https://epg.112114.xyz/pp.xml"
+#EXTM3U name="成都电信IPTV - 2025-10-13T03:07:12Z" url-tvg="https://epg.51zmt.top:8001/e.xml,https://epg.112114.xyz/pp.xml"
 
 #EXTINF:-1 tvg-logo="https://epg.51zmt.top:8001/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="CCTV",CCTV1
 http://192.168.20.34:4000/rtp/239.94.0.31:5140
