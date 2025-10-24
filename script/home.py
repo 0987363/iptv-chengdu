@@ -2,75 +2,43 @@
 # -*- coding: utf-8 -*-
 
 import requests
-import m3u8
-import sys
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-import strict_rfc3339
+from datetime import datetime
 import re
 
 
-#with open('./sctvmulticast.html') as f:
-#   res=f.read()
+# 配置常量
+sourceIcon51ZMT = "https://epg.51zmt.top:8001"
+sourceChengduMulticast = "https://epg.51zmt.top:8001/sctvmulticast.html"
+homeLanAddress = "http://192.168.20.40:5140"
+catchupBaseUrl = "http://192.168.20.40:5140"
+totalEPG = "https://epg.51zmt.top:8001/e.xml,https://epg.112114.xyz/pp.xml"
 
-sourceTvboxIptv="https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt"
-sourceIcon51ZMT="https://epg.51zmt.top:8001"
-sourceChengduMulticast="https://epg.51zmt.top:8001/sctvmulticast.html"
-homeLanAddress="http://192.168.20.34:4000"
-totalEPG="https://epg.51zmt.top:8001/e.xml,https://epg.112114.xyz/pp.xml"
-
-groupCCTV=["CCTV", "CETV", "CGTN"]
-groupWS=[ "卫视"]
-groupSC=["SCTV", "四川", "CDTV", "熊猫", "峨眉", "成都"]
-listUnused=["单音轨", "画中画", "热门", "直播室", "爱", "92"]
+# 分组配置
+groupCCTV = ["CCTV", "CETV", "CGTN"]
+groupWS = ["卫视"]
+groupSC = ["SCTV", "四川", "CDTV", "熊猫", "峨眉", "成都"]
+listUnused = ["单音轨", "画中画", "热门", "直播室", "爱", "92"]
 
 
 index = 1
 def getID():
     global index
-    index = index+1
-    return index-1
+    index = index + 1
+    return index - 1
 
 def setID(i):
     global index
     if i > index:
-        index = i+1
+        index = i + 1
     return index
-
-def checkChannelExist(listIptv, channel):
-    for k, v in listIptv.items():
-        if isIn(k, channel):
-            return True
-    return False
-
-def appendOnlineIptvFromTvbox(listIptv):
-    onlineIptv = requests.get(sourceTvboxIptv, verify=False).content
-    lines = onlineIptv.splitlines()
-
-    for line in lines:
-        line=line.decode('utf-8')
-        groupMatch = re.search(r'(.+),#genre#', line)
-        if groupMatch:
-            g = groupMatch.group(1)
-            if g not in listIptv:
-                listIptv[g] = []
-            continue
-        if g == "YouTube":
-            continue
-
-        v=line.split(',')
-
-        if checkChannelExist(listIptv, v[0]):
-            listIptv[g].append({"id": getID(), "name": v[0], "address": v[1], "dup": True})
-            continue
-        else:
-            listIptv[g].append({"id": getID(), "name": v[0], "address": v[1]})
-
 
 def isIn(items, v):
     for item in items:
-        if item in v:   # 字符串内检查是否有子字符串
+        if item in v:
             return True
+    return False
 
 def filterCategory(v):
     if isIn(groupCCTV, v):
@@ -86,18 +54,36 @@ def findIcon(m, id):
     for v in m:
         if v["name"] == id:
             return urljoin(sourceIcon51ZMT, v["icon"])
-            #return 'http://epg.51zmt.top:8001/' + v["icon"]
-
     return ""
 
+def buildCatchupSource(rtsp_url, original_url):
+    """
+    构建回看源URL
+    从rtsp URL中提取主机地址和路径部分，与catchupBaseUrl拼接
+    例如: rtsp://182.139.235.40/PLTV/88888896/224/3221228807/10000100000000060000000003732597_0.smil
+    提取主机: 182.139.235.40
+    提取路径: /PLTV/88888896/224/3221228807/10000100000000060000000003732597_0.smil
+    """
+    if not rtsp_url or not rtsp_url.startswith("rtsp://"):
+        return ""
+    
+    # 从rtsp URL中提取主机地址和路径部分
+    url_without_protocol = rtsp_url[7:]  # 移除 "rtsp://"
+    path_start = url_without_protocol.find("/")
+    if path_start == -1:
+        return ""
+    
+    rtsp_host = url_without_protocol[:path_start]  # 获取主机地址，如 182.139.235.40
+    rtsp_path = url_without_protocol[path_start:]  # 获取路径部分，如 /PLTV/...smil
+    
+    # 构建完整的回看源URL，使用动态提取的主机地址
+    catchup_source = f"{catchupBaseUrl}/rtsp/{rtsp_host}{rtsp_path}?playseek=${{(b)yyyyMMddHHmmss}}-${{(e)yyyyMMddHHmmss}}"
+    
+    return catchup_source
 
 def loadIcon():
     res = requests.get(sourceIcon51ZMT, verify=False).content
-    m=[]
-    #res=""
-    #with open('./index.html') as f:
-    #    res=f.read()
-
+    m = []
     soup = BeautifulSoup(res, 'lxml')
 
     for tr in soup.find_all('tr'):
@@ -117,87 +103,78 @@ def loadIcon():
     return m
 
 def generateM3U8(file):
-    file=open(file, "w")
-    name = '成都电信IPTV - ' + strict_rfc3339.now_to_rfc3339_utcoffset()
-    title = '#EXTM3U name=\"' + name + '\"' + ' url-tvg=\"' + totalEPG + '\"\n\n'
-    file.write(title)
+    with open(file, "w", encoding='utf-8') as f:
+        name = '成都电信IPTV - ' + datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')
+        title = f'#EXTM3U name="{name}" url-tvg="{totalEPG}"\n\n'
+        f.write(title)
 
-    for k, v in m.items():
-        for c in v:
-            if "dup" in c:
-                continue
+        for k, v in m.items():
+            for c in v:
+                if "dup" in c:
+                    continue
 
-            if "ct" in c:
-                line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["name"], k, c["name"])
-                line2 = homeLanAddress + '/rtp/' + c["address"] + "\n"
-            else:
-                line = '#EXTINF:-1 tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (getID(), c["name"], k, c["name"])
-                line2 = c["address"] + "\n"
+                # 构建回看源URL
+                catchup_source = buildCatchupSource(c["rtsp_url"], c["address"])
+                
+                # 生成M3U8条目，添加回看参数
+                line = (f'#EXTINF:-1 tvg-logo="{c["icon"]}" tvg-id="{c["id"]}" '
+                       f'tvg-name="{c["name"]}" group-title="{k}" '
+                       f'catchup="default" catchup-source="{catchup_source}",{c["name"]}\n')
+                line2 = f'{homeLanAddress}/rtp/{c["address"]}\n'
 
-            file.write(line)
-            file.write(line2)
+                f.write(line)
+                f.write(line2)
 
-    file.close()
     print("Build m3u8 success.")
-
-def generateTXT(file):
-    file=open(file, "w")
-    for k, v in m.items():
-        line = '%s,#genre#\n' % (k)
-        file.write(line)
-
-        for c in v:
-            line = '%s,%s/rtp/%s\n' % (c["name"], homeLanAddress, c["address"])
-            if "ct" not in c:
-                line = '%s,%s\n' % (c["name"], c["address"])
-
-            file.write(line)
-
-    file.close()
-    print("Build txt success.")
-
 
 def generateHome():
     generateM3U8("./home/iptv.m3u8")
-    #generateTXT("./home/iptv.txt")
 
-#exit(0)
+def main():
+    # 加载图标数据
+    mIcons = loadIcon()
 
+    # 获取成都组播数据
+    res = requests.get(sourceChengduMulticast, verify=False).content
+    soup = BeautifulSoup(res, 'lxml')
+    
+    global m
+    m = {}
+    
+    for tr in soup.find_all(name='tr'):
+        td = tr.find_all(name='td')
+        if len(td) < 7 or td[0].string == "序号":
+            continue
 
-mIcons = loadIcon()
+        name = td[1].string
+        if isIn(listUnused, name):
+            continue
 
-res = requests.get(sourceChengduMulticast, verify=False).content
-soup = BeautifulSoup(res, 'lxml')
-m={}
-for tr in soup.find_all(name='tr'):
-    td = tr.find_all(name='td')
-    if td[0].string == "序号":
-        continue
+        setID(int(td[0].string))
 
-    name = td[1].string
-    if isIn(listUnused, name):
-        continue
+        # 清理频道名称
+        name = name.replace('超高清', '').replace('高清', '').replace('-', '').strip()
 
+        group = filterCategory(name)
+        icon = findIcon(mIcons, name)
+        
+        # 提取rtsp URL
+        rtsp_url = td[6].string if td[6].string else ""
 
-    setID(int(td[0].string))
+        if group not in m:
+            m[group] = []
 
-    name = name.replace('超高清', '').replace('高清', '').replace('-', '').strip()
+        m[group].append({
+            "id": td[0].string, 
+            "name": name, 
+            "address": td[2].string, 
+            "rtsp_url": rtsp_url,
+            "ct": True, 
+            "icon": icon
+        })
 
-    group = filterCategory(name)
-    icon = findIcon(mIcons, name)
+    generateHome()
 
-    if group not in m:
-        m[group] = []
-
-    m[group].append({"id": td[0].string, "name": name, "address": td[2].string, "ct": True, "icon": icon})
-
-
-#appendOnlineIptvFromTvbox(m)
-
-generateHome()
-
-
-
-
-#res = requests.get("https://raw.githubusercontent.com/iptv-org/iptv/master/streams/hk.m3u")
+if __name__ == "__main__":
+    main()
 
