@@ -120,7 +120,7 @@ def generateM3U8(file):
                 line = (f'#EXTINF:-1 tvg-logo="{c["icon"]}" tvg-id="{c["id"]}" '
                        f'tvg-name="{c["name"]}" group-title="{k}" '
                        f'catchup="default" catchup-source="{catchup_source}",{c["name"]}\n')
-                line2 = f'{homeLanAddress}/rtp/{c["address"]}\n'
+                line2 = f'{homeLanAddress}/rtp/{c["address"]}?fcc=182.139.234.40:8027\n'
 
                 f.write(line)
                 f.write(line2)
