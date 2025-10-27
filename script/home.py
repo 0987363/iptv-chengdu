@@ -66,19 +66,19 @@ def buildCatchupSource(rtsp_url, original_url):
     """
     if not rtsp_url or not rtsp_url.startswith("rtsp://"):
         return ""
-    
+
     # 从rtsp URL中提取主机地址和路径部分
     url_without_protocol = rtsp_url[7:]  # 移除 "rtsp://"
     path_start = url_without_protocol.find("/")
     if path_start == -1:
         return ""
-    
+
     rtsp_host = url_without_protocol[:path_start]  # 获取主机地址，如 182.139.235.40
     rtsp_path = url_without_protocol[path_start:]  # 获取路径部分，如 /PLTV/...smil
-    
+
     # 构建完整的回看源URL，使用动态提取的主机地址
     catchup_source = f"{catchupBaseUrl}/rtsp/{rtsp_host}{rtsp_path}?playseek=${{(b)yyyyMMddHHmmss}}-${{(e)yyyyMMddHHmmss}}"
-    
+
     return catchup_source
 
 def loadIcon():
@@ -115,12 +115,12 @@ def generateM3U8(file):
 
                 # 构建回看源URL
                 catchup_source = buildCatchupSource(c["rtsp_url"], c["address"])
-                
+
                 # 生成M3U8条目，添加回看参数
                 line = (f'#EXTINF:-1 tvg-logo="{c["icon"]}" tvg-id="{c["id"]}" '
                        f'tvg-name="{c["name"]}" group-title="{k}" '
                        f'catchup="default" catchup-source="{catchup_source}",{c["name"]}\n')
-                line2 = f'{homeLanAddress}/rtp/{c["address"]}?fcc=182.139.234.40:8027\n'
+                line2 = f'{homeLanAddress}/rtp/{c["address"]}?FCC=182.139.234.40:8027\n'
 
                 f.write(line)
                 f.write(line2)
@@ -137,10 +137,10 @@ def main():
     # 获取成都组播数据
     res = requests.get(sourceChengduMulticast, verify=False).content
     soup = BeautifulSoup(res, 'lxml')
-    
+
     global m
     m = {}
-    
+
     for tr in soup.find_all(name='tr'):
         td = tr.find_all(name='td')
         if len(td) < 7 or td[0].string == "序号":
@@ -157,7 +157,7 @@ def main():
 
         group = filterCategory(name)
         icon = findIcon(mIcons, name)
-        
+
         # 提取rtsp URL
         rtsp_url = td[6].string if td[6].string else ""
 
@@ -165,11 +165,11 @@ def main():
             m[group] = []
 
         m[group].append({
-            "id": td[0].string, 
-            "name": name, 
-            "address": td[2].string, 
+            "id": td[0].string,
+            "name": name,
+            "address": td[2].string,
             "rtsp_url": rtsp_url,
-            "ct": True, 
+            "ct": True,
             "icon": icon
         })
 
