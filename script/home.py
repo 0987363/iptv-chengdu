@@ -19,6 +19,7 @@ totalEPG = "https://epg.51zmt.top:8001/e.xml,https://epg.112114.xyz/pp.xml"
 groupCCTV = ["CCTV", "CETV", "CGTN"]
 groupWS = ["卫视"]
 groupSC = ["SCTV", "四川", "CDTV", "熊猫", "峨眉", "成都"]
+group4K = ["4K"]
 listUnused = ["单音轨", "画中画", "热门", "直播室", "爱", "92"]
 
 
@@ -41,14 +42,26 @@ def isIn(items, v):
     return False
 
 def filterCategory(v):
+    """
+    返回频道名匹配的所有分组
+    一个频道可以同时属于多个分组
+    """
+    categories = []
+    
     if isIn(groupCCTV, v):
-        return "CCTV"
-    elif isIn(groupWS, v):
-        return "卫视"
-    elif isIn(groupSC, v):
-        return "四川"
-    else:
-        return "其他"
+        categories.append("CCTV")
+    if isIn(groupWS, v):
+        categories.append("卫视")
+    if isIn(group4K, v):
+        categories.append("4K")
+    if isIn(groupSC, v):
+        categories.append("四川")
+    
+    # 如果没有匹配任何分组，则归类为"其他"
+    if not categories:
+        categories.append("其他")
+    
+    return categories
 
 def findIcon(m, id):
     for v in m:
@@ -155,23 +168,27 @@ def main():
         # 清理频道名称
         name = name.replace('超高清', '').replace('高清', '').replace('-', '').strip()
 
-        group = filterCategory(name)
+        groups = filterCategory(name)  # 现在返回分组列表
         icon = findIcon(mIcons, name)
 
         # 提取rtsp URL
         rtsp_url = td[6].string if td[6].string else ""
 
-        if group not in m:
-            m[group] = []
-
-        m[group].append({
+        # 创建频道信息对象
+        channel_info = {
             "id": td[0].string,
             "name": name,
             "address": td[2].string,
             "rtsp_url": rtsp_url,
             "ct": True,
             "icon": icon
-        })
+        }
+
+        # 将频道添加到所有匹配的分组中
+        for group in groups:
+            if group not in m:
+                m[group] = []
+            m[group].append(channel_info)
 
     generateHome()
 

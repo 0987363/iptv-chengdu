@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2025-10-27T10:38:20Z" url-tvg="https://epg.51zmt.top:8001/e.xml,https://epg.112114.xyz/pp.xml"
+#EXTM3U name="成都电信IPTV - 2025-10-27T11:11:47Z" url-tvg="https://epg.51zmt.top:8001/e.xml,https://epg.112114.xyz/pp.xml"
 
 #EXTINF:-1 tvg-logo="https://epg.51zmt.top:8001/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="CCTV" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228807/10000100000000060000000003732597_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV1
 http://192.168.20.40:5140/rtp/239.94.0.31:5140?FCC=182.139.234.40:8027
@@ -146,8 +146,12 @@ http://192.168.20.40:5140/rtp/239.94.0.110:5140?FCC=182.139.234.40:8027
 http://192.168.20.40:5140/rtp/239.94.0.82:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="" tvg-id="192" tvg-name="北京卫视4K" group-title="卫视" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228638/761592560.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",北京卫视4K
 http://192.168.20.40:5140/rtp/239.94.0.111:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="https://epg.51zmt.top:8001/tb1/ws/sichuan.png" tvg-id="17" tvg-name="四川卫视" group-title="四川" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221227981/10000100000000060000000003732199_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",四川卫视
+http://192.168.20.40:5140/rtp/239.94.0.59:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="https://epg.51zmt.top:8001/tb1/sheng/cdtv1.png" tvg-id="18" tvg-name="CDTV1" group-title="四川" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228528/676981477.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CDTV1
 http://192.168.20.40:5140/rtp/239.94.0.154:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="24" tvg-name="四川卫视4K" group-title="四川" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228827/770652630.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",四川卫视4K
+http://192.168.20.40:5140/rtp/239.94.0.115:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="https://epg.51zmt.top:8001/tb1/sheng/sctv2.png" tvg-id="42" tvg-name="SCTV2" group-title="四川" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221227905/10000100000000060000000003706211_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",SCTV2
 http://192.168.20.40:5140/rtp/239.94.0.70:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="https://epg.51zmt.top:8001/tb1/sheng/sctv3.png" tvg-id="43" tvg-name="SCTV3" group-title="四川" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221227904/10000100000000060000000003706213_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",SCTV3
@@ -192,6 +196,40 @@ http://192.168.20.40:5140/rtp/239.94.1.7:5140?FCC=182.139.234.40:8027
 http://192.168.20.40:5140/rtp/239.94.1.8:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="" tvg-id="193" tvg-name="i成都" group-title="四川" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228398/647574497.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",i成都
 http://192.168.20.40:5140/rtp/239.94.2.1:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="https://epg.51zmt.top:8001/tb1/CCTV/CCTV4k.png" tvg-id="19" tvg-name="CCTV4K" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228545/659297395.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV4K
+http://192.168.20.40:5140/rtp/239.94.0.20:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="24" tvg-name="四川卫视4K" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228827/770652630.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",四川卫视4K
+http://192.168.20.40:5140/rtp/239.94.0.115:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="25" tvg-name="湖南卫视4K" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228768/770656685.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",湖南卫视4K
+http://192.168.20.40:5140/rtp/239.94.0.116:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="26" tvg-name="江苏卫视4K" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228832/770656316.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",江苏卫视4K
+http://192.168.20.40:5140/rtp/239.94.0.117:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="27" tvg-name="浙江卫视4K" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228879/770656701.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",浙江卫视4K
+http://192.168.20.40:5140/rtp/239.94.0.118:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="28" tvg-name="东方卫视4K" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228884/770656329.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",东方卫视4K
+http://192.168.20.40:5140/rtp/239.94.0.119:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="29" tvg-name="北京卫视4K" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228739/761592568.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",北京卫视4K
+http://192.168.20.40:5140/rtp/239.94.0.112:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="30" tvg-name="深圳卫视4K" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228906/766421093.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",深圳卫视4K
+http://192.168.20.40:5140/rtp/239.94.0.113:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="31" tvg-name="广东卫视4K" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228758/766421188.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",广东卫视4K
+http://192.168.20.40:5140/rtp/239.94.0.114:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="32" tvg-name="山东卫视4K" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228773/770656339.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",山东卫视4K
+http://192.168.20.40:5140/rtp/239.94.0.120:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="145" tvg-name="4K视界专区" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888893/224/3221228685/750260599.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",4K视界专区
+http://192.168.20.40:5140/rtp/239.94.1.60:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="146" tvg-name="4K纪实专区" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888893/224/3221228822/770478771.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",4K纪实专区
+http://192.168.20.40:5140/rtp/239.94.1.69:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="147" tvg-name="4K少儿专区" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888893/224/3221228763/770478584.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",4K少儿专区
+http://192.168.20.40:5140/rtp/239.94.1.70:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="172" tvg-name="绚影4K专区" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/446/224/3221228530/656103811.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",绚影4K专区
+http://192.168.20.40:5140/rtp/239.94.1.150:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="179" tvg-name="4K乐享超清专区" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/446/224/3221228646/690652062.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",4K乐享超清专区
+http://192.168.20.40:5140/rtp/239.94.1.162:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="191" tvg-name="欢笑剧场4K" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/446/224/3221228675/735169480.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",欢笑剧场4K
+http://192.168.20.40:5140/rtp/239.94.1.176:5140?FCC=182.139.234.40:8027
+#EXTINF:-1 tvg-logo="" tvg-id="192" tvg-name="北京卫视4K" group-title="4K" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228638/761592560.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",北京卫视4K
+http://192.168.20.40:5140/rtp/239.94.0.111:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="" tvg-id="23" tvg-name="精彩导视" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228426/613328510.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",精彩导视
 http://192.168.20.40:5140/rtp/239.94.1.63:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="" tvg-id="58" tvg-name="中国交通" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888888/224/3221228440/589023143.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",中国交通
@@ -276,12 +314,6 @@ http://192.168.20.40:5140/rtp/239.94.1.56:5140?FCC=182.139.234.40:8027
 http://192.168.20.40:5140/rtp/239.94.1.57:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="" tvg-id="144" tvg-name="东方财经" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888893/224/3221228614/701208658.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",东方财经
 http://192.168.20.40:5140/rtp/239.94.1.59:5140?FCC=182.139.234.40:8027
-#EXTINF:-1 tvg-logo="" tvg-id="145" tvg-name="4K视界专区" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888893/224/3221228685/750260599.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",4K视界专区
-http://192.168.20.40:5140/rtp/239.94.1.60:5140?FCC=182.139.234.40:8027
-#EXTINF:-1 tvg-logo="" tvg-id="146" tvg-name="4K纪实专区" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888893/224/3221228822/770478771.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",4K纪实专区
-http://192.168.20.40:5140/rtp/239.94.1.69:5140?FCC=182.139.234.40:8027
-#EXTINF:-1 tvg-logo="" tvg-id="147" tvg-name="4K少儿专区" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888893/224/3221228763/770478584.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",4K少儿专区
-http://192.168.20.40:5140/rtp/239.94.1.70:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="" tvg-id="155" tvg-name="都市剧场" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/446/224/3221228448/656044391.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",都市剧场
 http://192.168.20.40:5140/rtp/239.94.1.133:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="" tvg-id="160" tvg-name="少儿天地专区" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/446/224/3221228502/656570997.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",少儿天地专区
@@ -296,8 +328,6 @@ http://192.168.20.40:5140/rtp/239.94.1.147:5140?FCC=182.139.234.40:8027
 http://192.168.20.40:5140/rtp/239.94.1.148:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="" tvg-id="171" tvg-name="麻辣体育专区" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/446/224/3221228408/654212908.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",麻辣体育专区
 http://192.168.20.40:5140/rtp/239.94.1.149:5140?FCC=182.139.234.40:8027
-#EXTINF:-1 tvg-logo="" tvg-id="172" tvg-name="绚影4K专区" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/446/224/3221228530/656103811.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",绚影4K专区
-http://192.168.20.40:5140/rtp/239.94.1.150:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="https://epg.51zmt.top:8001/tb1/qt/XFBY.png" tvg-id="173" tvg-name="先锋乒羽" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/446/224/3221228523/675976893.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",先锋乒羽
 http://192.168.20.40:5140/rtp/239.94.1.151:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="https://epg.51zmt.top:8001/tb1/qt/TIANYUANWEIQI.jpg" tvg-id="174" tvg-name="天元围棋" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/446/224/3221228554/675976190.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",天元围棋
@@ -310,8 +340,6 @@ http://192.168.20.40:5140/rtp/239.94.1.154:5140?FCC=182.139.234.40:8027
 http://192.168.20.40:5140/rtp/239.94.1.155:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="" tvg-id="178" tvg-name="亲子趣学4k专区" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/446/224/3221228553/687288414.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",亲子趣学4k专区
 http://192.168.20.40:5140/rtp/239.94.1.156:5140?FCC=182.139.234.40:8027
-#EXTINF:-1 tvg-logo="" tvg-id="179" tvg-name="4K乐享超清专区" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/446/224/3221228646/690652062.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",4K乐享超清专区
-http://192.168.20.40:5140/rtp/239.94.1.162:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="https://epg.51zmt.top:8001/tb1/qt/CCTVPAYFEE37.jpg" tvg-id="180" tvg-name="书画频道" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/446/224/3221228623/736363024.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",书画频道
 http://192.168.20.40:5140/rtp/239.94.1.163:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="" tvg-id="181" tvg-name="乐游" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/446/224/3221228716/735196564.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",乐游
@@ -334,8 +362,6 @@ http://192.168.20.40:5140/rtp/239.94.1.173:5140?FCC=182.139.234.40:8027
 http://192.168.20.40:5140/rtp/239.94.1.174:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="https://epg.51zmt.top:8001/tb1/qt/CHC1.jpg" tvg-id="190" tvg-name="CHC动作电影" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/446/224/3221228552/675981650.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CHC动作电影
 http://192.168.20.40:5140/rtp/239.94.1.175:5140?FCC=182.139.234.40:8027
-#EXTINF:-1 tvg-logo="" tvg-id="191" tvg-name="欢笑剧场4K" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/446/224/3221228675/735169480.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",欢笑剧场4K
-http://192.168.20.40:5140/rtp/239.94.1.176:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="" tvg-id="194" tvg-name="中国体育1" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228487/655054047.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",中国体育1
 http://192.168.20.40:5140/rtp/239.94.2.7:5140?FCC=182.139.234.40:8027
 #EXTINF:-1 tvg-logo="" tvg-id="195" tvg-name="中国体育2" group-title="其他" catchup="default" catchup-source="http://192.168.20.40:5140/rtsp/182.139.235.40/PLTV/88888896/224/3221228433/655054051.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",中国体育2
