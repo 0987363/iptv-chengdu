@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from datetime import datetime
 import re
+import sys
 
 
 # 配置常量
@@ -95,50 +96,90 @@ def buildCatchupSource(rtsp_url, original_url):
     return catchup_source
 
 def loadIcon():
-    res = requests.get(sourceIcon51ZMT, verify=False).content
-    m = []
-    soup = BeautifulSoup(res, 'lxml')
+    """
+    加载图标数据，如果失败则返回空列表
+    图标加载失败不应该阻止整个程序运行
+    """
+    try:
+        print(f"正在获取图标数据: {sourceIcon51ZMT}")
+        response = requests.get(sourceIcon51ZMT, verify=False, timeout=30)
+        response.raise_for_status()
+        
+        if not response.content:
+            print("⚠️  图标数据为空，将使用默认图标")
+            return []
+            
+        res = response.content
+        soup = BeautifulSoup(res, 'lxml')
+        m = []
 
-    for tr in soup.find_all('tr'):
-        td = tr.find_all('td')
-        if len(td) < 4:
-            continue
-
-        href = ""
-        for a in td[0].find_all('a', href=True):
-            if a["href"] == "#":
+        for tr in soup.find_all('tr'):
+            td = tr.find_all('td')
+            if len(td) < 4:
                 continue
-            href = a["href"]
 
-        if href != "":
-            m.append({"id": td[3].string, "name": td[2].string, "icon": href})
+            href = ""
+            for a in td[0].find_all('a', href=True):
+                if a["href"] == "#":
+                    continue
+                href = a["href"]
 
-    return m
+            if href != "":
+                m.append({"id": td[3].string, "name": td[2].string, "icon": href})
+
+        print(f"成功加载 {len(m)} 个图标")
+        return m
+        
+    except requests.exceptions.RequestException as e:
+        print(f"⚠️  图标数据获取失败: {e}")
+        print("将继续执行，但频道将使用默认图标")
+        return []
+    except Exception as e:
+        print(f"⚠️  解析图标数据时发生错误: {e}")
+        print("将继续执行，但频道将使用默认图标")
+        return []
 
 def generateM3U8(file):
-    with open(file, "w", encoding='utf-8') as f:
-        name = '成都电信IPTV - ' + datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')
-        title = f'#EXTM3U name="{name}" url-tvg="{totalEPG}"\n\n'
-        f.write(title)
+    """
+    生成M3U8文件，包含异常处理
+    """
+    try:
+        print(f"正在生成M3U8文件: {file}")
+        with open(file, "w", encoding='utf-8') as f:
+            name = '成都电信IPTV - ' + datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')
+            title = f'#EXTM3U name="{name}" url-tvg="{totalEPG}"\n\n'
+            f.write(title)
 
-        for k, v in m.items():
-            for c in v:
-                if "dup" in c:
-                    continue
+            total_written = 0
+            for k, v in m.items():
+                for c in v:
+                    if "dup" in c:
+                        continue
 
-                # 构建回看源URL
-                catchup_source = buildCatchupSource(c["rtsp_url"], c["address"])
+                    # 构建回看源URL
+                    catchup_source = buildCatchupSource(c["rtsp_url"], c["address"])
 
-                # 生成M3U8条目，添加回看参数
-                line = (f'#EXTINF:-1 tvg-logo="{c["icon"]}" tvg-id="{c["id"]}" '
-                       f'tvg-name="{c["name"]}" group-title="{k}" '
-                       f'catchup="default" catchup-source="{catchup_source}",{c["name"]}\n')
-                line2 = f'{homeLanAddress}/rtp/{c["address"]}?FCC=182.139.234.40:8027\n'
+                    # 生成M3U8条目，添加回看参数
+                    line = (f'#EXTINF:-1 tvg-logo="{c["icon"]}" tvg-id="{c["id"]}" '
+                           f'tvg-name="{c["name"]}" group-title="{k}" '
+                           f'catchup="default" catchup-source="{catchup_source}",{c["name"]}\n')
+                    line2 = f'{homeLanAddress}/rtp/{c["address"]}?FCC=182.139.234.40:8027\n'
 
-                f.write(line)
-                f.write(line2)
+                    f.write(line)
+                    f.write(line2)
+                    total_written += 1
 
-    print("Build m3u8 success.")
+        print(f"✅ M3U8文件生成成功，共写入 {total_written} 个频道")
+        
+    except IOError as e:
+        print(f"❌ 文件写入失败: {e}")
+        print("请检查文件路径和写入权限")
+        print("ERROR: File write failed - GitHub Action will be terminated")
+        sys.exit(1)
+    except Exception as e:
+        print(f"❌ 生成M3U8文件时发生未知错误: {e}")
+        print("ERROR: M3U8 generation failed - GitHub Action will be terminated")
+        sys.exit(1)
 
 def generateHome():
     generateM3U8("./home/iptv.m3u8")
@@ -148,8 +189,48 @@ def main():
     mIcons = loadIcon()
 
     # 获取成都组播数据
-    res = requests.get(sourceChengduMulticast, verify=False).content
-    soup = BeautifulSoup(res, 'lxml')
+    try:
+        print(f"正在获取成都组播数据: {sourceChengduMulticast}")
+        response = requests.get(sourceChengduMulticast, verify=False, timeout=30)
+        response.raise_for_status()  # 检查HTTP状态码
+        
+        if not response.content:
+            raise ValueError("获取到的内容为空")
+            
+        res = response.content
+        soup = BeautifulSoup(res, 'lxml')
+        
+        # 验证页面内容是否有效（检查是否包含表格数据）
+        tables = soup.find_all('table')
+        if not tables:
+            raise ValueError("页面中未找到表格数据，可能页面结构已变化")
+            
+        # 检查是否有有效的频道数据行
+        valid_rows = 0
+        for tr in soup.find_all('tr'):
+            td = tr.find_all('td')
+            if len(td) >= 7 and td[0].string != "序号":
+                valid_rows += 1
+                
+        if valid_rows == 0:
+            raise ValueError("未找到有效的频道数据")
+            
+        print(f"成功获取到 {valid_rows} 条频道数据")
+        
+    except requests.exceptions.RequestException as e:
+        print(f"❌ 网络请求失败: {e}")
+        print("请检查网络连接或稍后重试")
+        print("ERROR: Network request failed - GitHub Action will be terminated")
+        sys.exit(1)
+    except ValueError as e:
+        print(f"❌ 数据验证失败: {e}")
+        print("远程数据源可能已变化，请检查数据源")
+        print("ERROR: Data validation failed - GitHub Action will be terminated")
+        sys.exit(1)
+    except Exception as e:
+        print(f"❌ 获取成都组播数据时发生未知错误: {e}")
+        print("ERROR: Unknown error occurred - GitHub Action will be terminated")
+        sys.exit(1)
 
     global m
     m = {}
@@ -190,8 +271,30 @@ def main():
                 m[group] = []
             m[group].append(channel_info)
 
+    # 验证是否有足够的频道数据
+    total_channels = sum(len(channels) for channels in m.values())
+    if total_channels == 0:
+        print("❌ 未获取到任何频道数据，无法生成M3U8文件")
+        print("ERROR: No channel data found - GitHub Action will be terminated")
+        sys.exit(1)
+    
+    print(f"✅ 数据处理完成，共获取到 {total_channels} 个频道，分布在 {len(m)} 个分组中")
+    for group, channels in m.items():
+        print(f"   - {group}: {len(channels)} 个频道")
+
     generateHome()
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+        print("✅ 脚本执行成功完成")
+    except SystemExit:
+        # 重新抛出SystemExit，保持原有的退出码
+        raise
+    except Exception as e:
+        print(f"❌ 脚本执行过程中发生严重错误: {e}")
+        print("ERROR: Critical error occurred - GitHub Action will be terminated")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
 
